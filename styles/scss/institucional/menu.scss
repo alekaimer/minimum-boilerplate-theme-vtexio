@@ -1,0 +1,66 @@
+// :global(.vtex-store-drawer-0-x-closeIconButton--drawner__institucional-menu) {
+//     position: absolute;
+//     right: 19px;
+//     top: 25px;
+//     width: 20px;
+//     height: 20px;
+//     background: url(https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.3.0/icons/cross___387571f3dda6dc18ab596d86cc7349b3.svg)
+//         no-repeat;
+//     background-size: contain;
+//     display: inline-block;
+// }
+
+// :global(.vtex-store-drawer-0-x-drawerContent--drawner__institucional-menu) {
+//     background-color: #fff;
+//     flex-wrap: wrap;
+//     width: 85%;
+//     overflow-y: scroll;
+//     height: 100vh;
+// }
+
+// :global(.vtex-store-drawer-0-x-opened--drawner__institucional-menu) {
+//     background-color: transparent;
+//     width: 100%;
+//     overflow-y: unset;
+// }
+
+// :global(.vtex-store-drawer-0-x-closeIcon--drawner__institucional-menu) {
+//     display: none;
+// }
+
+// :global(.vtex-store-drawer-0-x-opened--drawner__institucional-menu) {
+//     background: rgba(0, 0, 0, 0.6);
+//     width: 100% !important;
+//     overflow-y: unset !important;
+// }
+
+// :global(.vtex-store-drawer-0-x-childrenContainer--drawner__institucional-menu) {
+//     padding: 10px 20px;
+// }
+
+// :global(.vtex-menu-2-x-menuContainer--category-menu-mobile--institucional) {
+//     :global(.vtex-rich-text-0-x-container--institucional__title-menu--block) {
+//         margin-bottom: 20px;
+//     }
+
+//     :global(.vtex-menu-2-x-styledLinkContent--institucional__menu-item) {
+//         font-size: 17px;
+//         margin-bottom: 20px;
+//         font-weight: 400;
+//         color: #4d4d4d;
+//     }
+// }
+
+// :global(.vtex-rich-text-0-x-container--institucional-menu-button) {
+//     border: 1px solid #ccc;
+//     height: 48px;
+//     position: relative;
+
+//     &::before {
+//         display: inline-block;
+//         content: url(https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.3.0/icons/menu-hamburguer.svg);
+//         position: absolute;
+//         left: 23px;
+//         top: 15px;
+//     }
+// }

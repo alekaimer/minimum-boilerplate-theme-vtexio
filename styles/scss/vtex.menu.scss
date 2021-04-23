@@ -1,0 +1,368 @@
+// .menuContainerNav--category-menu {
+//   width: 90%;
+//   max-width: 1620px;
+
+//   .styledLinkContainer {
+//     margin: 0 17px;
+//   }
+
+//   .menuItem {
+//     margin: 0 15px;
+
+//     &--menu-item-all {
+//       margin-left: 0;
+
+//       .styledLinkContainer {
+//         margin-left: 0;
+//       }
+//     }
+//   }
+// }
+
+// .menuContainer--category-menu {
+//   align-items: center;
+//   justify-content: flex-start;
+// }
+
+// .styledLinkContainer {
+//   padding: 14px 0;
+// }
+
+// .styledLink {
+//   font-family: 'Open Sans', sans-serif;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 14px;
+//   line-height: 130%;
+//   color: #222222;
+// }
+
+// .styledLinkContainer--menu-item-all {
+//   margin-left: 0;
+//   margin-right: 0;
+//   display: flex;
+//   align-items: center;
+//   padding: 7px 0;
+
+//   &::before {
+//     content: "";
+//     display: block;
+//     width: 31px;
+//     height: 31px;
+//     background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-menu.svg");
+//     margin-right: 8px;
+//   }
+
+//   &::after {
+//     content: "";
+//     display: block;
+//     width: 12px;
+//     height: 12px;
+//     background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-up.svg");
+//     margin-left: 8px;
+//   }
+// }
+
+// .styledLinkContent--menu-item-all {
+//   color: rgb(22, 137, 202);
+//   font-weight: bold;
+// }
+
+// .menuItem {
+//   border-bottom: 2px solid #FFFFFF;
+
+//   &:hover {
+//     border-bottom: 2px solid #1689CA;
+//   }
+// }
+
+// .menuContainer--submenu-container {
+//   .menuItem {
+//     border-bottom: 0;
+
+//     .styledLinkContainer {
+//       padding: 5px 0;
+//     }
+//   }
+// }
+
+// .submenuWrapper {
+//   box-sizing: border-box;
+//   left: initial;
+//   right: 0;
+
+//   :global(.vtex-flex-layout-0-x-flexCol) {
+//     width: auto !important;
+//     padding: 10px 0;
+//   }
+// }
+
+// .submenu {
+//   justify-content: space-between;
+
+//   :global(.vtex-flex-layout-0-x-flexCol):last-child {
+//     margin-right: 20px;
+//   }
+
+//   .styledLinkContent {
+//     &:hover {
+//       color: #1689CA;
+//     }
+//   }
+// }
+
+// .submenuWrapper {
+//   margin-left: 0;
+//   margin-top: 2px;
+// }
+
+// .menuItem--menu-item-all {
+//   .submenuWrapper {
+//     width: 1025px;
+//     left: 0;
+//     right: initial;
+//   }
+// }
+
+// .menuItem--menu-item-ofertas {
+//   .submenuWrapper {
+//     width: auto;
+//     padding: 30px;
+//     left: 0;
+//     right: initial;
+
+//     .submenu {
+//       justify-content: center;
+//       width: 480px;
+
+//       :global(.vtex-flex-layout-0-x-flexCol):last-child {
+//         margin-right: 0;
+//         padding: 0;
+//       }
+//     }
+//   }
+// }
+
+// .menuItem--menu-item-lancamento {
+//   .submenuWrapper {
+//     width: auto;
+//     padding: 30px;
+
+//     .submenu {
+//       justify-content: center;
+//       width: 480px;
+
+//       :global(.vtex-flex-layout-0-x-flexCol):last-child {
+//         margin-right: 0;
+//         padding: 0;
+//       }
+//     }
+//   }
+// }
+
+// .menuItem--menu-item-celulares {
+//   .submenuWrapper {
+//     width: 616px;
+//     left: 0;
+//     right: initial;
+
+//     .menuItem:last-child {
+//       .styledLink {
+//         color: #0D84C4;
+//       }
+//     }
+//   }
+// }
+
+// .menuItem--menu-item-eletro {
+//   .submenuWrapper {
+//     width: 616px;
+//     left: 0;
+//     right: initial;
+
+//     .menuItem:last-child {
+//       .styledLink {
+//         color: #0D84C4;
+//       }
+//     }
+//   }
+// }
+
+// .menuItem--menu-item-cama-mesa-banho {
+//   .submenuWrapper {
+//     width: 671px;
+//   }
+// }
+
+// .menuItem--menu-item-ambiente {
+//   .submenuWrapper {
+//     width: 630px;
+
+//     .menuItem:last-child {
+//       .styledLink {
+//         color: #0D84C4;
+//       }
+//     }
+//   }
+// }
+
+// .menuItem--menu-item-promocoes {
+//   .submenuWrapper {
+//     width: 695px;
+//   }
+// }
+
+// .styledLinkContent--header-wpp {
+//   &::before {
+//     content: "";
+//     display: block;
+//     width: 25px;
+//     height: 25px;
+//     background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-whatsapp-blue.svg");
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//   }
+// }
+
+// .menuItem--header-wpp {
+//   border: 0;
+//   margin-left: 0;
+//   margin-right: 30px;
+
+//   &:hover {
+//     border: 0;
+//   }
+
+//   .styledLinkContainer--header-wpp {
+//     margin-left: 0;
+//     margin-right: 0;
+//   }
+
+//   .submenuWrapper {
+//     border: 1px solid #E1E1E1;
+//     margin: 0;
+//     top: 10px;
+//     right: -24px;
+
+//     &::before {
+//       content: "";
+//       display: block;
+//       width: 24px;
+//       height: 10px;
+//       background-image: url("https://ortobomshop.vteximg.com.br/arquivos/arrow-up.png");
+//       background-position: center;
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       margin-left: 10px;
+//       position: absolute;
+//       top: -10px;
+//       right: 25px;
+//     }
+//   }
+// }
+
+// .menuContainerNav--header-wpp {
+//   .menuContainer--header-wpp {
+//     flex-direction: column;
+//     width: 355px;
+//   }
+
+//   :global(.vtex-rich-text-0-x-container--menu-whatsapp-title) {
+//     justify-content: center;
+
+//     :global(.vtex-rich-text-0-x-paragraph--menu-whatsapp-title) {
+//       font-family: 'Open Sans', sans-serif;
+//       font-style: normal;
+//       font-weight: normal;
+//       font-size: 14px;
+//       line-height: 130%;
+//       color: #494B4D;
+//       display: flex;
+//       align-items: center;
+//       margin-top: 0;
+//       margin-bottom: 10px;
+
+//       &::after {
+//         content: "";
+//         display: block;
+//         width: 25px;
+//         height: 25px;
+//         background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-whatsapp-green.svg");
+//         background-position: center;
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//         margin-left: 10px;
+//       }
+//     }
+//   }
+
+//   :global(.vtex-rich-text-0-x-container--menu-whatsapp-phone) {
+//     justify-content: center;
+
+//     :global(.vtex-rich-text-0-x-paragraph--menu-whatsapp-phone) {
+//       font-family: 'Open Sans', sans-serif;
+//       font-style: normal;
+//       font-weight: bold;
+//       font-size: 14px;
+//       line-height: 130%;
+//       color: #222222;
+//       margin-top: 0;
+//       margin-bottom: 30px;
+//     }
+//   }
+
+//   :global(.vtex-flex-layout-0-x-flexRowContent--menu-whatsapp-row) {
+//     justify-content: center;
+//     align-items: flex-start;
+//     margin-bottom: 20px;
+//   }
+
+//   :global(.vtex-rich-text-0-x-container--menu-whatsapp-description) {
+//     :global(.vtex-rich-text-0-x-paragraph--menu-whatsapp-description) {
+//       font-family: 'Open Sans', sans-serif;
+//       font-style: normal;
+//       font-weight: normal;
+//       font-size: 14px;
+//       line-height: 130%;
+//       color: #222222;
+//       margin: 0;
+//       max-width: 176px;
+//       margin-right: 9px;
+//     }
+//   }
+
+//   :global(.vtex-store-link-0-x-link--menu-whatsapp) {
+//     display: block;
+//     width: 290px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     background-color: #25D366;
+//     border-radius: 30px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-family: 'Open Sans', sans-serif;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 12px;
+//     line-height: 130%;
+//     color: #FFFFFF;
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     padding-top: 8px;
+//     padding-bottom: 8px;
+
+//     &::before {
+//       content: "";
+//       display: block;
+//       width: 25px;
+//       height: 25px;
+//       background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-whatsapp-white.svg");
+//       background-position: center;
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       margin-right: 10px;
+//     }
+//   }
+// }

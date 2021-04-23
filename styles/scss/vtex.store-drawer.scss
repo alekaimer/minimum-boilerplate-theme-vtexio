@@ -1,0 +1,183 @@
+// .overlay--menu-mobile {
+//     background-color: #222222;
+// }
+
+// .drawer--menu-mobile {
+//     .childrenContainer--menu-mobile {
+//         flex-direction: column;
+//     }
+
+//     :global(.vtex-rich-text-0-x-paragraph--menu-mobile-title) {
+//         font-family: 'Open Sans', sans-serif;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: 16px;
+//         line-height: 130%;
+//         color: #1689CA;
+//         margin-left: 15px;
+//         margin-bottom: 6px;
+//         margin-top: 20px;
+//     }
+
+//     :global(.vtex-menu-2-x-menuContainerNav) {
+//         width: 100%;
+//     }
+
+//     :global(.vtex-menu-2-x-menuItem--menu-mobile) {
+//         border-bottom: 1px solid #EDEDED;
+//         margin: 0 15px;
+//     }
+
+//     :global(.vtex-menu-2-x-styledLinkContainer--menu-mobile) {
+//         margin-left: 0;
+//         margin-right: 0;
+//     }
+
+//     :global(.vtex-menu-2-x-styledLinkContent--menu-mobile) {
+//         display: flex;
+//         align-items: center;
+        
+//         &::after {
+//             content: "";
+//             display: block;
+//             width: 20px;
+//             height: 20px;
+//             background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-arrow-down.svg");
+//             background-position: center;
+//             background-repeat: no-repeat;
+//             background-size: cover;
+//         }
+//     }
+
+//     :global(.vtex-menu-2-x-accordionIcon--menu-mobile) {
+//         display: none;
+//     }
+
+//     :global(.vtex-flex-layout-0-x-flexRow--menu-mobile-header) {
+//         width: 100%;
+//         background-color: #1689CA;
+
+//         :global(.vtex-flex-layout-0-x-flexRowContent--menu-mobile-header) {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//         }
+
+//         :global(.vtex-store-link-0-x-link--menu-mobile-header) {
+//             justify-content: center;
+//             display: flex;
+//             align-items: center;
+//             font-family: 'Open Sans', sans-serif;
+//             font-style: normal;
+//             font-weight: normal;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #FFF;
+//             text-decoration: none;
+//         }
+
+//         :global(.vtex-store-link-0-x-link--menu-mobile-header-conta) {
+//             margin-right: 20px;
+
+//             &::before {
+//                 content: "";
+//                 display: block;
+//                 width: 25px;
+//                 height: 25px;
+//                 background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-user-branco.svg");
+//                 background-position: center;
+//                 background-repeat: no-repeat;
+//                 background-size: cover;
+//                 margin-right: 8px;
+//                 margin-top: 23px;
+//                 margin-bottom: 25px;
+//             }
+//         }
+
+//         :global(.vtex-store-link-0-x-link--menu-mobile-header-pedidos) {
+//             &::before {
+//                 content: "";
+//                 display: block;
+//                 width: 25px;
+//                 height: 25px;
+//                 background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-caixa.svg");
+//                 background-position: center;
+//                 background-repeat: no-repeat;
+//                 background-size: cover;
+//                 margin-right: 10px;
+//                 margin-top: 23px;
+//                 margin-bottom: 25px;
+//             }
+//         }
+//     }
+
+//     :global(.vtex-flex-layout-0-x-flexRowContent--menu-drawer-televendas) {
+//         border-bottom: 1px solid #EDEDED;
+//     }
+
+//     :global(.vtex-rich-text-0-x-paragraph--menu-mobile-televendas-phone) {
+//         color: #FFF;
+//         font-family: 'Open Sans', sans-serif;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: 16px;
+//         line-height: 140%;
+//         background-color: #1689CA;
+//         border-radius: 6px;
+//         padding: 9px 18px 9px 18px;
+//         margin-left: 15px;
+//     }
+
+//     :global(.vtex-rich-text-0-x-paragraph--menu-mobile-televendas-funcionamento) {
+//         color: #222222;
+//         font-family: 'Open Sans', sans-serif;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: 14px;
+//         line-height: 140%;
+//         margin-left: 15px;
+
+//         :global(.vtex-televendas-custom) {
+//             color: #1689CA;
+//         }
+//     }
+
+//     :global(.vtex-store-link-0-x-link--link-menu-drawer-footer) {
+//         font-family: 'Open Sans', sans-serif;
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 14px;
+//         line-height: 130%;
+//         color: #222222;
+//         text-decoration: none;
+//         margin-bottom: 30px;
+//         margin-left: 15px;
+//     }
+
+//     :global(.vtex-rich-text-0-x-paragraph--menu-mobile-title-ajuda) {
+//         margin-bottom: 30px;
+//     }
+
+//     :global(.vtex-menu-2-x-menuItem--menu-mobile-departamentos) {
+//         :global(.vtex-menu-2-x-submenuAccordion) {
+//             flex-direction: column;
+//         }
+//     }
+// }
+
+// .closed--menu-mobile {
+//     :global(.vtex-store-drawer-0-x-closeIconButton) {
+//         display: none;
+//     }
+// }
+
+// .opened--menu-mobile {
+//     :global(.vtex-store-drawer-0-x-closeIconButton) {
+//         position: absolute;
+//         right: -18.5%;
+
+//         :global(.vtex-store-drawer-0-x-closeIcon) {
+//             color: #FFF;
+//         }
+//     }
+// }

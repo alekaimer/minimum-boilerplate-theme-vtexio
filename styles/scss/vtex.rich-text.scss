@@ -1,0 +1,153 @@
+// // DEALS
+// .container--deals {
+//   text-align: left;
+
+//   .paragraph {
+//     margin-bottom: 5px;
+//     color: #222222;
+//     font-family: 'Open Sans', sans-serif;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 16px;
+//     line-height: 130%;
+//     margin-top: 0;
+//   }
+// }
+
+// .container--deals-secondary {
+//   text-align: left;
+
+//   .paragraph {
+//     margin: 0;
+//     color: #494B4D;
+//     font-family: 'Open Sans', sans-serif;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 14px;
+//     line-height: 130%;
+//   }
+// }
+
+// :global(.vtex-store-link-0-x-link--deals-secondary) {
+//   text-align: left;
+//   margin: 0;
+//   color: #494B4D;
+//   font-family: 'Open Sans', sans-serif;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 14px;
+//   line-height: 130%;
+// }
+
+
+// // OTHERS
+// .container--shelfTitle {
+//   color: #727273;
+//   justify-content: center;
+//   text-align: center;
+// }
+
+// .headingLevel2--shelfTitle {
+//   font-weight: 200;
+// }
+
+// .container--link {
+//   justify-content: center;
+// }
+
+// .container--question {
+//   justify-content: center;
+// }
+
+// .container--question .paragraph {
+//   text-align: center;
+//   max-width: 540px;
+//   margin: 0 16px;
+//   padding-top: 120px;
+//   color: #03034E;
+// }
+
+// .container--question .strong {
+//   font-size: 32px;
+//   line-height: 2rem;
+//   font-weight: 700;
+// }
+
+// .container--link .paragraph {
+//   text-align: center;
+//   max-width: 540px;
+//   padding-top: 36px;
+//   padding-bottom: 84px;
+//   color: #03034E;
+// }
+
+// .container--link .strong {
+//   font-size: 16px;
+//   font-weight: 700;
+//   text-transform: uppercase;
+// }
+
+// .container--link .link {
+//   text-decoration: none;
+//   font-size: 36px;
+//   font-weight: 300;
+//   color: #03034E;
+// }
+
+// .container--title {
+//   color: #03034E;
+//   font-size: 28px;
+//   font-weight: 700;
+// }
+
+// @media only screen and (min-width: 640px) {
+//   .container--question .strong {
+//     font-size: 40px;
+//     line-height: 3rem;
+//   }
+
+//   .container--about {
+//     max-width: 85%;
+//   }
+
+//   .container--title {
+//     color: #03034E;
+//     font-size: 40px;
+//     font-weight: 700;
+//     max-width: 60%;
+//   }
+
+//   .container--title .paragraph {
+//     line-height: 1.3em;
+//   }
+// }
+
+
+// .container--error__shelf-title {
+//   justify-content: flex-start;
+// }
+
+
+// .container--wishlist-title-text {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+
+// .wrapper--wishlist-title-text {
+//   .paragraph {
+//     font-size: 30px;
+//     text-transform: uppercase;
+//     letter-spacing: 0.04em;
+//     color: #fff;
+
+//     @media only screen and (max-width: 1024px) {
+//       font-size: 18px;
+//       margin-block-start: 0;
+//       margin-block-end: 0;
+//       padding: 26px 0;
+//     }
+//   }
+// }
+

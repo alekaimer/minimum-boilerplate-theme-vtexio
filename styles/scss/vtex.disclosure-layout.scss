@@ -1,0 +1,76 @@
+// .content {
+// }
+
+// .content--faq-answer {
+//     padding: 0 23px;
+// }
+
+// :global(.vtex-rich-text-0-x-paragraph--title-faq) {
+//     font-size: 14px;
+//     font-style: normal;
+//     // font-weight: 400;
+// }
+
+// .content--visible {
+// }
+// .content--hidden {
+// }
+// .trigger--visible {
+//     :global(.vtex-rich-text-0-x-paragraph) {
+//         font-weight: bolder;
+//     }
+// }
+// .triggerGroup {
+// }
+// .triggerGroup--visible {
+// }
+// .triggerGroup--hidden {
+// }
+
+// .trigger--faq-trigger {
+//     position: relative;
+//     width: 100%;
+//     background-color: white;
+//     border: 0;
+//     outline: none;
+//     border-bottom: 1px solid #ccc;
+
+//     @media only screen and (max-width: 1250px) {
+//         :global(.vtex-rich-text-0-x-paragraph) {
+//             max-width: 87%;
+//         }
+//     }
+
+//     :global(.vtex-store-icons-0-x-plusIcon) {
+//         position: absolute;
+//         display: inline-block;
+//         right: 0;
+//         height: 100%;
+//         cursor: pointer;
+
+//         &::before {
+//             display: block;
+//             content: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100' width='100'><circle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /></svg>");
+//             background-size: 28px 28px;
+//             height: 28px;
+//             width: 28px;
+//             // content: url(https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.3.0/icons/faq-arrow-down___7552cb39fc106c7d4d225317fe32adad.png);
+//         }
+//     }
+
+//     &--visible {
+//         :global(.vtex-store-icons-0-x-minusIcon) {
+//             position: absolute;
+//             justify-content: flex-start;
+//             display: flex;
+//             right: 0;
+//             height: 100%;
+//             cursor: pointer;
+//             //display: none;
+
+//             &::before {
+//                 content: url(https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.3.0/icons/faq-arrow-up___efc75f406c7f67441d776db07a218adc.png);
+//             }
+//         }
+//     }
+// }

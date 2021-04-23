@@ -1,0 +1,435 @@
+// .searchResultContainer {
+//     max-width: 1620px;
+//     padding: 0;
+//     margin-top: 8px;
+// }
+
+// // PRODUCT SUMMARY
+// :global(.vtex-product-summary-2-x-nameContainer) {
+//     padding-top: 12px;
+//     padding-bottom: 10px;
+//     justify-content: flex-start;
+// }
+
+// :global(.vtex-product-summary-2-x-nameWrapper),
+// :global(.vtex-product-summary-2-x-brandName) {
+//     font-family: "Open Sans", sans-serif;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 14px;
+//     line-height: 130%;
+//     color: #222222;
+//     text-align: left;
+// }
+
+// :global(.vtex-product-price-1-x-sellingPriceValue--summary) {
+//     font-family: "Open Sans", sans-serif;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 16px;
+//     line-height: 130%;
+//     color: #222222;
+// }
+
+// :global(.vtex-product-price-1-x-installments--summary) {
+//     text-align: left;
+//     font-family: "Open Sans", sans-serif;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 14px;
+//     line-height: 130%;
+//     color: #222222;
+//     margin-bottom: 0;
+// }
+
+// /* CATALOG */
+
+// .totalProducts--layout {
+//     font-size: 12px;
+//     font-weight: 400;
+//     color: #343434;
+//     margin-right: 20px;
+//     padding: 0;
+//     text-transform: lowercase;
+// }
+
+// .orderByDropdown {
+//     .orderByOptionsContainer {
+//         max-width: 160px;
+//         min-width: 0;
+//         width: 100%;
+//         z-index: 2;
+//         top: 34px;
+//         box-shadow: none;
+//         border-radius: 2px;
+//         border: 1px solid #b2b2b2;
+//         border-top: none;
+
+//         @media only screen and (max-width: 640px) {
+//             width: calc(100% - 5px);
+//             max-width: 100%;
+//             left: 5px;
+//         }
+
+//         .orderByOptionItem {
+//             padding: 5px 11px;
+//             color: #343434;
+//             font-size: 14px;
+//             width: 158px;
+//             min-width: 0;
+//             box-sizing: border-box;
+
+//             @media only screen and (max-width: 640px) {
+//                 width: 100%;
+//             }
+//         }
+//     }
+//     .orderByButton {
+//         width: 160px;
+//         height: 36px;
+//         padding: 0;
+//         display: flex;
+//         align-items: center;
+//         justify-content: start;
+//         background: #fff;
+//         border: 1px solid #b2b2b2;
+//         border-radius: 2px;
+
+//         @media only screen and (max-width: 640px) {
+//             width: calc(100% - 5px);
+//             margin-left: 5px;
+//             height: 40px;
+//             justify-content: center;
+//         }
+
+//         .filterPopupTitle {
+//             text-transform: none;
+//             text-indent: 11px;
+//             font-size: 0;
+
+//             &::before {
+//                 content: "Ordenar por";
+//                 font-size: 12px;
+//                 color: #7f7f7f;
+//             }
+//         }
+//         .filterPopupArrowIcon {
+//             content: url(https://lojaduratex.vtexassets.com/assets/vtex/assets-builder/lojaduratex.lojaduratex-theme/1.1.0/icons/arrow-down.svg);
+//             position: absolute;
+//             padding: 0;
+//             right: 15px;
+//             z-index: 1;
+//         }
+//     }
+// }
+
+// .filter__container {
+//     position: relative;
+
+//     .filterIsOpen {
+//         .filterIcon {
+//             content: url(https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.2.0/icons/arrow-down.png);
+//             position: absolute;
+//             right: 10px;
+//             padding: 0;
+//             text-indent: 0;
+//             transform: rotate(180deg);
+//         }
+//     }
+
+//     .filterIcon {
+//         content: url(https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.2.0/icons/arrow-down.png);
+//         position: absolute;
+//         right: 10px;
+//         padding: 0;
+//         text-indent: 0;
+
+//         &:hover {
+//             transform: rotate(180deg);
+//         }
+//     }
+//     .caretIcon {
+//         //display:none;
+//     }
+// }
+
+// :global(.vtex-store-components-3-x-container) {
+//     @media only screen and (max-width: 640px) {
+//         max-width: 1280px;
+//     }
+// }
+
+// .filterPopupButton {
+//     @media only screen and (max-width: 640px) {
+//         width: calc(100% - 5px);
+//         height: 40px;
+//         padding: 0;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         background: #fff;
+//         border: 1px solid #b2b2b2;
+//         border-radius: 2px;
+//     }
+
+//     .filterPopupTitle {
+//         @media only screen and (max-width: 640px) {
+//             font-size: 0;
+//             line-height: 140%;
+//             font-weight: 400;
+//             text-transform: none;
+//             width: 100%;
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: center;
+//             align-items: center;
+//             color: #4d4d4d;
+
+//             &::after {
+//                 content: "Filtrar por";
+//                 font-size: 12px;
+//                 color: #4d4d4d;
+//             }
+//         }
+//     }
+
+//     .filterPopupArrowIcon {
+//         @media only screen and (max-width: 640px) {
+//             display: none;
+//         }
+//     }
+// }
+
+// .orderByDropdown {
+//     padding: 0;
+// }
+
+// .loadingOverlay {
+//     @media only screen and (max-width: 640px) {
+//         :global(.vtex-rich-text-0-x-container--search-title) {
+//             padding: 0 5%;
+
+//             :global(.vtex-rich-text-0-x-paragraph--search-title) {
+//                 font-size: 24px;
+//                 line-height: 31, 2px;
+//             }
+//         }
+
+//         :global(.vtex-rich-text-0-x-wrapper--search-description) {
+//             margin: 0 5%;
+//         }
+//     }
+// }
+
+// .filterAccordionBreadcrumbs {
+//     border: 0;
+//     padding: 22px;
+
+//     .filterBreadcrumbsText {
+//         font-weight: 700;
+//         font-style: normal;
+//         font-size: 0;
+//         line-height: 20, 8px;
+
+//         &::after {
+//             content: "Filtrar por";
+//             font-size: 16px;
+//         }
+//     }
+// }
+
+// .filterIsOpen {
+// }
+// .sidebar {
+//     @media only screen and (max-width: 640px) {
+//         //width: 86% !important;
+//         &::before {
+//             left: -38px;
+//             top: 27px;
+//         }
+//     }
+
+//     .filterButtonsBox {
+//         height: 4rem;
+//         border: none;
+//         background: #fff;
+//         padding: 0 10px;
+//         flex-direction: row-reverse;
+//         box-shadow: 0 2px 4px #000;
+//         .filterApplyButtonWrapper {
+//             :global(.vtex-button) {
+//                 background: #11ab6b;
+//                 border: 1px solid #11ab6b;
+//                 border-radius: 0;
+//                 border-radius: 6px;
+//                 height: 40px;
+//                 padding: 0 6px 0 0;
+
+//                 :global(.vtex-button__label) {
+//                     color: #fff;
+//                     font-size: 14px;
+//                     font-weight: 700;
+//                     line-height: 140%;
+//                     padding: 0;
+//                 }
+//             }
+//         }
+
+//         .filterClearButtonWrapper {
+//             border-radius: 0;
+//             padding: 0;
+//             :global(.vtex-button) {
+//                 background: white;
+//                 border-radius: 6px;
+//                 border: 1px solid #1689ca;
+//                 height: 40px;
+//                 :global(.vtex-button__label) {
+//                     color: #1689ca;
+//                     font-size: 14px;
+//                     font-weight: 700;
+//                     line-height: 140%;
+//                     padding: 0;
+//                 }
+//             }
+//         }
+//     }
+
+//     .accordionFilter {
+//         @media only screen and (max-width: 640px) {
+//             //padding: 0 20px;
+//         }
+//     }
+
+//     .accordionFilterItemOptions {
+//         padding: 0;
+//         .filter__container {
+//             border: none;
+//             padding: 13px 39px;
+//         }
+
+//         :global(.vtex-checkbox__line-container) {
+//             font-size: 14px;
+//         }
+
+//         :global(.vtex-search-result-3-x-filter--mobileLayout) {
+//             display: none;
+//         }
+
+//         .filterAccordionItemBox {
+//             padding-top: 0;
+//             border: none;
+
+//             :global(.vtex-checkbox__line-container) {
+//                 font-size: 14px;
+//             }
+
+//             :global(.vtex-search-result-3-x-filter--mobileLayout) {
+//                 display: none;
+//             }
+
+//             .filterTemplateOverflow--mobileLayout {
+//                 width: 90%;
+//                 padding: 10px;
+//             }
+//         }
+//     }
+
+//     .filterAccordionBreadcrumbs {
+//         @media only screen and (max-width: 640px) {
+//             padding: 25px 15px 10px;
+//             border: none;
+//             height: auto;
+//             &::before {
+//                 content: url(https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.1.0/icons/cross___64564d2d3a5e99b0da1938b2bab33c6a.png);
+//                 position: absolute;
+//                 left: -38px;
+//                 top: 27px;
+//             }
+//         }
+//     }
+
+//     .accordionFilterContainer {
+//         @media only screen and (max-width: 640px) {
+//             padding: 0;
+//             margin-right: 10px;
+
+//             .accordionFilterItemOptions {
+//                 padding: 0;
+
+//                 .filter__container {
+//                     position: relative;
+//                     padding: 0 14px;
+//                 }
+
+//                 .filterTitle {
+//                     font-size: 0;
+//                 }
+//             }
+//             .filterAccordionItemBox {
+//             }
+//         }
+//     }
+
+//     .accordionFilterItem {
+//         @media only screen and (max-width: 640px) {
+//             padding: 0 15px;
+//             border: none;
+//             height: auto;
+//             position: relative;
+//             z-index: 1;
+//             &::after {
+//                 content: "";
+//                 position: absolute;
+//                 left: 0;
+//                 bottom: 0;
+//                 height: 0px;
+//                 width: 88%;
+//                 border-bottom: 1px solid #e0e0e0;
+//                 margin-left: 15px;
+//             }
+
+//             .accordionFilterContent {
+//                 padding: 15px 0;
+//                 line-height: normal;
+//                 font-size: 0;
+//                 position: relative;
+
+//                 .accordionFilterItemIcon {
+//                     // content: url(https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.2.0/icons/arrow-down.png);
+//                     position: absolute;
+//                     right: 10px;
+//                     padding: 0;
+//                     text-indent: 0;
+//                     transform: rotate(0deg);
+
+//                     .caretIcon {
+//                         width: 15px;
+//                         height: 15px;
+//                     }
+//                 }
+
+//                 .accordionFilterItemTitle {
+//                     font-size: 14px;
+//                     font-weight: 400;
+//                     font-style: normal;
+//                     line-height: 18px;
+//                     .accordionFilterItemTag {
+//                         :global(.vtex-tag) {
+//                             align-items: center;
+//                             border-radius: 50%;
+//                             display: flex;
+//                             height: auto;
+//                             justify-content: center;
+//                             margin: 0;
+//                             min-height: 18px;
+//                             min-width: 18px;
+//                             padding: 0 0 1px;
+//                             text-align: justify;
+//                             width: auto;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

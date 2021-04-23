@@ -1,0 +1,43 @@
+// .wishlistIconContainer {
+//     position: absolute;
+//     top: 10px;
+//     right: 20px;
+//     z-index: 2;
+//     display: none;
+
+//     @media only screen and (max-width: 640px) {
+//         display: block;
+//     }
+
+//     :global(.vtex-button) {
+//         outline: none !important;
+//     }
+
+//     :global(.vtex-button__label) {
+//         padding: 0 !important;
+//     }
+// }
+
+// .outline {
+//     background: none !important;
+//     &::after {
+//         content: url("https://ortobomshop.vtexassets.com/assets/vtex/assets-builder/ortobomshop.ortobomshop-theme/0.2.0/icons/heart-wishlist___c76501e07d90d2c86cda30f936a7b8a2.svg");
+//     }
+// }
+
+// .fill {
+//     background: none;
+//     &::after {
+//         content: url("https://lojaduratex.vtexassets.com/assets/vtex/assets-builder/lojaduratex.lojaduratex-theme/0.2.0/header/icon-wish-list-fill.svg");
+//     }
+// }
+
+// .iconSize {
+//     width: 20px;
+//     height: 20px;
+
+//     @media only screen and (max-width: 1024px) {
+//         width: 16px;
+//         height: 16px;
+//     }
+// }

@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+.container {
+    @media only screen and (max-width: 1024px) {
+        margin-right: 23px;    
+    }
+
+    .label  {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 130%;
+        color: #F9F9F9;
+        text-transform: none;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 25px;
+            height: 25px;
+            background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-user.svg");
+            margin-right: 5px;
+
+            @media only screen and (max-width: 1024px) {
+                margin-right: 0;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) {
+            font-size: 0;
+        }
+    }
+    
+    :global(.vtex-button):hover {
+        background-color: initial;
+    }
+
+    :global(.vtex-button__label) {
+        padding: 0px 5px !important;
+    }
+}
+
+//LOGIN PAGE( MOBILE )
+@media only screen and (max-width: 1025px) {//TABLET AND BELOW
+    :global(.vtex-login-2-x-content){
+        padding: 15px;
+        flex-direction: column-reverse !important;
+
+        //FORM
+        :global(.vtex-login-2-x-contentForm){
+            padding: 0;
+            width: 100%;
+
+            //TITLE
+            :global(.vtex-login-2-x-formTitle){
+                font-family: 'Noto Sans JP', sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 22.4px;
+                color: #2B2B2B;
+                margin: 0 0 20px 0;
+                padding: 0;
+
+                :global(.vtex-login-2-x-formSubtitle){
+                    font-size: 12px;
+                    line-height: 140%;
+                    font-weight: normal;
+                    color: #202020;
+                }
+            }
+
+            //INPUT
+            :global(.vtex-login-2-x-inputContainer){
+                padding: 0 0 20px;
+                :global(.vtex-input-prefix__group){
+                    border: 1px solid #E0E0E0;
+                    border-radius: 0;
+
+                    :global(.vtex-styleguide-9-x-input){
+                        
+                        font-size: 14px;
+                        line-height: 140%;
+                        font-weight: 300;
+                        border-radius: 0;
+                        color: #000;
+                        &::placeholder{
+                            color: #818284;
+                            font-family: 'Noto Sans JP', sans-serif;
+                        }
+                    }
+                }
+            }
+            
+            //LINK
+            :global(.vtex-login-2-x-formLinkContainer){
+                margin-bottom: 21px;
+                padding: 0;
+                justify-content: flex-end;
+
+                :global(.vtex-login-2-x-forgotPasswordLink){
+                    font-family: 'Noto Sans JP', sans-serif;
+                }
+
+                :global(.vtex-login-2-x-forgotPasswordLink),
+                :global(.vtex-login-2-x-dontHaveAccount){
+                    font-size: 12px;
+                    line-height: 17.38px;
+                    font-weight: 300;
+                    letter-spacing: 0.04em;
+                    color: #1D316C;
+                    text-decoration: underline;
+                    text-transform: uppercase;
+                }
+            }
+
+            //BACK BUTTON
+            :global(.vtex-login-2-x-backButton){
+                display: flex;
+                align-items: center;
+
+                :global(.vtex-button){
+
+                    :global(.vtex-button__label){
+                        padding-left: 2px;
+
+                        & :first-child{
+                            font-family: 'Noto Sans JP', sans-serif;
+                            font-size: 14px;
+                            line-height: 140%;
+                            font-weight: 300;
+                            letter-spacing: 0.1em;
+                            text-transform: uppercase;
+                            color: #2C1B62;
+                        }
+
+                        :global(.vtex-login-2-x-arrowBackIcon){
+                            color: #2C1B62;
+                            font-weight: 700;
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+
+            //FOOTER FORM
+            :global(.vtex-login-2-x-formFooter){
+                margin: 0;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                border-color: #F2F2F2;
+
+                :global(.vtex-login-2-x-sendButton){
+
+                    :global(.vtex-button){
+                        height: 48px;
+                        border-radius: 6px;
+                        border: 0;
+                        background-color: #0162D1;
+
+                        :global(.vtex-button__label){
+                            font-family: 'Noto Sans JP', sans-serif;
+                            font-weight: bold;
+                            line-height: 140%;
+                            text-transform: uppercase;
+
+                            & :first-child{
+                                font-size: 0;
+                            }
+                            &::before{
+                                font-size: 14px;
+                                content: 'Enviar';
+                            }
+                        }
+                    }
+                }
+            }
+
+            //ERROR MESSAGE
+            :global(.vtex-login-2-x-formError){
+                font-family: 'Noto Sans JP', sans-serif;
+                color: red;
+                background-color: transparent;
+                padding: 5px;
+                margin-top: -20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        //LOGIN OPTIONS
+        :global(.vtex-login-2-x-options){
+            width: 100%;
+            min-width: 0;
+
+            :global(.vtex-login-2-x-formTitle){
+                font-family: 'Noto Sans JP', sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 140%;
+                color: #2B2B2B;
+                margin: 10px 0 20px;
+                padding: 0;
+
+                //TITLE
+                :global(.vtex-login-2-x-formSubtitle){
+                    font-size: 12px;
+                    line-height: 140%;
+                    font-weight: normal;
+                    color: #202020;
+                }
+            }
+
+            //OPTIONS LIST
+            :global(.vtex-login-2-x-optionsList){
+
+                :global(.vtex-login-2-x-optionsListItem){
+                    margin: 0;
+
+                    &:not(:empty){
+                        margin-bottom: 10px;
+                    }
+
+                    :global(.vtex-button){  
+                        font-family: 'Noto Sans JP', sans-serif;
+                        font-size: 12px;
+                        line-height: 16.8px;
+                        font-weight: bold;
+                        color: #2C1B62;
+                        border: 1px solid #2C1B62;
+                        border-radius: 6px;
+                        background: transparent;
+                        width: 100%;
+                        height: 48px;
+
+                        :global(.vtex-button__label){
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//LOGIN PAGE AND MODAL( DESKTOP )
+@media only screen and (min-width: 1026px) {//DESKTOP
+    :global(.vtex-login-2-x-content){
+        flex-direction: row !important;
+
+        :global(.vtex-login-2-x-formTitle){
+            font-family: 'Noto Sans JP', sans-serif;  
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22.4px;
+            color: #2B2B2B;
+            margin: 0 0 20px 0;
+            padding: 0; 
+        }
+        
+        //LOGIN OPTIONS
+        :global(.vtex-login-2-x-options){
+    
+            :global(.vtex-login-2-x-optionsList){
+                
+                margin: 0;
+
+                :global(.vtex-login-2-x-optionsListItem){
+                    margin: 0;
+                    &:not(:empty){
+                        margin-bottom: 20px;
+                    }
+                    &:nth-last-of-type(2){
+                        margin-bottom: 0px;
+                    }
+
+                    :global(.vtex-button){
+                        font-family: 'Noto Sans JP', sans-serif;
+                        font-size: 14px;
+                        line-height: 18.2px;
+                        font-weight: bold;
+                        color: #2C1B62;
+                        border: 1px solid #2C1B62;
+                        border-radius: 6px;
+                        background: transparent;
+                        height: 48px;
+
+                        :global(.vtex-button__label){
+                            padding-left: 0.8rem;
+                            padding-right: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+        //LOGIN INPUTS
+        :global(.vtex-login-2-x-inputContainer){
+            padding: 0 0 20px;
+
+            :global(.vtex-input){
+
+                :global(.vtex-input-prefix__group){
+                    border: none;
+                    border-radius: 0;
+                    
+                    :global(.vtex-styleguide-9-x-input){
+                        border: 1px solid #E0E0E0;
+                        border-radius: 0;
+                        font-family: 'Noto Sans JP', sans-serif;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 19.6px;
+                        color: #000;
+                        &::placeholder{
+                            color: #818284;
+                            content: 'LOL';
+                        }
+                    }
+                }
+            }
+
+            //INPUT PASSWORD
+            &:global(.vtex-login-2-x-inputContainerPassword){
+
+                :global(.vtex-input-prefix__group){
+                    position: relative;
+
+                    :global(.vtex-input__suffix){
+                        position: absolute;
+                        top: 50%;
+                        right: 10px;
+                        padding: 0;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+
+        //FOOTER FORM LOGIN
+        :global(.vtex-login-2-x-formFooter){
+            border-top: 1px solid #F2F2F2;
+            margin: 0;
+            padding-top: 20px;
+
+            //BACK BUTTON
+            :global(.vtex-login-2-x-backButton){
+                display: flex;
+                align-items: center;
+
+                :global(.vtex-button){
+                    
+                    &:hover {
+                        background-color: transparent !important;
+                        border-color: transparent !important;
+                    }
+
+                    :global(.vtex-button__label){
+                        padding-left: 2px;
+
+                        & :first-child{
+                            font-family: 'Noto Sans JP', sans-serif;
+                            font-size: 14px;
+                            line-height: 140%;
+                            font-weight: 300;
+                            text-transform: uppercase;
+                            color: #2C1B62;
+                        }
+
+                        :global(.vtex-login-2-x-arrowBackIcon){
+                            color: #2C1B62;
+                            font-weight: 700;
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+
+            //SEND BUTTON
+            :global(.vtex-login-2-x-sendButton){
+
+                :global(.vtex-button){
+                    width: 124px;
+                    height: 48px;
+                    border-radius: 6px;
+                    border: 0;
+                    background-color: #0162D1;
+
+                    :global(.vtex-button__label){
+                        
+                        & :first-child{
+                            font-family: 'Noto Sans JP', sans-serif;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 140%;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+
+        //ERROR MESSAGE
+        :global(.vtex-login-2-x-formError){
+            font-family: 'Noto Sans JP', sans-serif;
+            color: red;
+            background-color: transparent;
+            padding: 5px;
+            margin-top: -20px;
+            margin-bottom: 20px; 
+        }
+
+        //LINK
+        :global(.vtex-login-2-x-formLinkContainer){
+            margin: 0;
+
+            :global(.vtex-login-2-x-forgotPasswordLink){
+                margin-bottom: 20px;
+                font-family: 'Noto Sans JP', sans-serif;
+            }
+            :global(.vtex-login-2-x-forgotPasswordLink),
+            :global(.vtex-login-2-x-dontHaveAccount){
+                font-size: 12px;
+                line-height: 19px;
+                font-weight: 300;
+                letter-spacing: 0.04em;
+                color: #1D316C;
+                text-decoration: underline;
+                text-transform: uppercase;
+            }
+
+            :global(.vtex-login-2-x-dontHaveAccount){
+                margin: 20px 0 0;
+            }
+        }
+    }
+}
+
+//LOGIN MODAL( DESKTOP )
+:global(.vtex-login-2-x-portalContainer){
+    //Transparent Background
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34,34,34,0.8); // #E0E0E0
+
+    :global(.vtex-login-2-x-box){
+        min-width: unset;
+    
+        //Tooltip
+        :global(.vtex-login-2-x-arrowUp){
+            top: 8px;
+            box-shadow: none;
+            border: 1px solid #E1E1E1;
+        }
+
+        :global(.vtex-login-2-x-contentContainer){
+            box-shadow: none;
+            border: 1px solid #E0E0E0;
+            min-width: 360px;
+    
+            :global(.vtex-login-2-x-content){
+                padding: 30px 20px 23px 20px;
+
+                :global(.vtex-login-2-x-contentForm) {
+                    padding-left: 0;
+                    padding-right: 0;
+                    width: 100%;
+                }
+
+                //LOGIN MODAL TITLE
+                :global(.vtex-login-2-x-formTitle){
+    
+                    :global(.vtex-login-2-x-formSubtitle){
+                        font-size: 12px;
+                        line-height: 140%;
+                        font-weight: normal;
+                        color: #202020;
+                    }
+                }
+    
+                //LOGGED MODAL
+                &:global(.vtex-login-2-x-content--accountOptions){
+                    min-width: 200px;
+                    padding: 20px;
+                    
+                    :global(.vtex-login-2-x-contentForm){
+                        padding: 0;
+                        min-width: unset;
+    
+                        :global(.vtex-login-2-x-accountOptions){
+                            > div {
+                                margin: 0;
+                            }
+                            a{
+                                color: #000000;
+                            }
+                            hr{
+                                display: none;
+                            }
+    
+                            :global(.vtex-login-2-x-accountOptionsSectionTitle){
+                                display: none;
+                            }
+    
+                            //LINKS
+                            :global(.vtex-login-2-x-accountLink){
+                                font-size: 14px;
+                                line-height: 140%;
+                                font-weight: 300;
+                                color: #000;
+                                text-transform: uppercase;
+                                padding: 10px 0;
+                            }
+    
+                            //LOGOUT BUTTON
+                            :global(.vtex-login-2-x-logoutButton){
+                                font-family: 'Noto Sans JP', sans-serif;
+                                font-size: 14px;
+                                line-height: 19.6px;
+                                font-weight: bold;
+                                color: #000;
+                                text-transform: uppercase;
+                                padding-top: .5rem;
+                            }
+                        }
+                    }
+                }
+
+                //CODE CONFIRMATION SCREEN
+                :global(.vtex-login-2-x-codeConfirmation) {
+    
+                    :global(.vtex-login-2-x-formTitle){
+                        margin-left: 20%;
+                        margin-right: 20%;
+                    }
+    
+                    :global(.vtex-login-2-x-sendButton){
+                        :global(.vtex-button){
+                            :global(.vtex-button__label){
+                                & :first-child{
+                                    font-size: 0;
+                                }
+                                &::before{
+                                    font-size: 14px;
+                                    content: 'Enviar';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
+
+//LOGIN HEADER ITEM
+// :global(.vtex-login-2-x-container){
+//     :global(.vtex-button){
+//         min-height: auto;
+//         border: 0;
+//         padding: 5px;
+//         @media only screen and (max-width: 1024px) {//Tablet and below
+                
+//         }
+
+//         :global(.vtex-button__label){
+//             padding: 0 !important;
+//             @media only screen and (max-width: 1024px) {//Tablet and below
+                    
+//             }
+//             & :first-child{
+//                 margin: 0;
+//                 @media only screen and (max-width: 1024px) {//Tablet and below
+//                 }
+//             }
+//             :global(.vtex-login-2-x-profileIcon){
+//                 width: 18px;
+//                 height: 18px;
+//                 @media only screen and (min-width: 1025px) {//Desktop and above
+//                     width: 24px;
+//                     height: 24px;
+//                 }
+//             }
+//             :global(.vtex-login-2-x-label){
+//                 font-size: 14px;
+//                 line-height: 140%;
+//                 font-weight: 300;
+//                 color: #000;
+//             }
+//             :global(.vtex-login-2-x-profile){
+//                 display: none;
+//                 @media only screen and (min-width: 1025px) {//Desktop and above
+//                     display: block;
+//                     font-size: 14px;
+//                     line-height: 140%;
+//                     font-weight: 300;
+//                     color: #000;
+//                     text-transform: initial;
+//                     max-width: 12ch;
+//                 }				
+//             }
+//         }
+//     }
+// }
+

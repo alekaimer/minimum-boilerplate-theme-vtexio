@@ -1,0 +1,200 @@
+// .formSubmitContainer {
+//     display: flex;
+//     justify-content: flex-end;
+// }
+
+// .formSubmitButton--contato__button {
+//     display: flex;
+//     justify-content: flex-end;
+//     padding-right: 10px;
+// }
+
+// .formSubmitButton {
+//     border: none;
+//     padding: 0;
+//     margin: 0;
+
+//     @media only screen and (max-width: 1025px) {
+//         width: 100%;
+//         padding: 0 9px;
+//     }
+
+//     :global(.vtex-button) {
+//         border: none;
+//         margin-block-start: 0;
+//         margin-block-end: 0;
+//         height: 40px;
+//         width: 250px !important;
+//         @media only screen and (max-width: 1025px) {
+//             width: 100% !important;
+//         }
+//         /* margin: 0 auto; */
+//         background: linear-gradient(
+//             90deg,
+//             #0d84c4 0%,
+//             #2e99bb 48%,
+//             #4eadb2 100%
+//         );
+//         border-radius: 2px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         color: white;
+//         cursor: pointer;
+//         margin: 0 auto;
+
+//         @media only screen and (max-width: 1024px) {
+//             width: calc(100% - 20px);
+//         }
+//     }
+
+//     :global(.vtex-button__label) {
+//         // font-size: 0;
+//         // border: none;
+//         // &::before {
+//         //     content: "Finalizar compra";
+//         //     font-weight: bold;
+//         //     font-size: 12px;
+//         //     color: #fff;
+//         //     letter-spacing: 0.04em;
+//         // }
+//     }
+// }
+
+// .formSubmitButton--contato__button--mobile {
+//     display: flex;
+//     justify-content: center;
+//     width: 100%;
+//     margin-top: 32px;
+// }
+
+// :global(.vtex-flex-layout-0-x-flexRow--institucional__form-container) {
+//     :global(.vtex-input) {
+//         margin: 0 10px;
+
+//         :global(.vtex-input__label) {
+//             font-size: 14px;
+//             color: #000;
+//             @media only screen and (max-width: 1024px) {
+//                 margin: 10px 0;
+//             }
+//         }
+
+//         :global(.vtex-input-prefix__group) {
+//             border: 1px solid #e0e0e0;
+//             border-radius: 6px;
+//         }
+//     }
+
+//     :global(.vtex-textarea) {
+//         margin: 0 10px;
+
+//         :global(.vtex-textarea__label) {
+//             font-size: 14px;
+//             color: #000;
+//         }
+//     }
+// }
+
+// :global(.vtex-flex-layout-0-x-flexRow--contato__row-footer) {
+//     :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+//         :global(.vtex-store-form-0-x-formSubmitButton--contato__button) {
+//             :global(.vtex-button) {
+//                 width: 262px;
+//                 height: 48px;
+
+//                 :global(.vtex-button__label) {
+//                     font-size: 14px;
+//                     font-weight: bold;
+//                     letter-spacing: 0.1em;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// :global(.vtex-flex-layout-0-x-flexColChild--contato__col-inputs) {
+//     :global(.vtex-input) {
+//         margin: 0 !important;
+
+//         :global(.vtex-input-prefix__group) {
+//             border: 1px solid #e0e0e0;
+//             border-radius: 0;
+//             margin-bottom: 19px;
+//         }
+//     }
+
+//     :global(.vtex-textarea) {
+//         margin: 0 !important;
+//     }
+// }
+
+// :global(.vtex-flex-layout-0-x-flexRow--contato__row-footer) {
+//     :global(.vtex-store-form-0-x-formSubmitButton) {
+//         :global(.vtex-button) {
+//             width: 100%;
+//             height: 48px;
+
+//             :global(.vtex-button__label) {
+//                 font-size: 14px;
+//                 font-weight: bold;
+//                 letter-spacing: 0.1em;
+//                 text-transform: capitalize;
+//             }
+//         }
+//     }
+// }
+
+// :global(.vtex-rich-text-0-x-container--contato__info) {
+//     :global(.vtex-rich-text-0-x-paragraph) {
+//         font-size: 14px;
+//         color: #000;
+//         line-height: 0;
+//         margin-block-start: 0 !important;
+//         margin-block-end: 0 !important;
+
+//         @media only screen and (max-width: 1024px) {
+//             margin-block-start: auto !important;
+//             margin-block-end: auto !important;
+//             padding: 20px 10px;
+//         }
+//     }
+// }
+
+// :global(.vtex-rich-text-0-x-paragraph--institucional__footer__title) {
+//     font-size: 30px;
+//     color: #259de1;
+//     font-weight: bold;
+//     margin-top: 0;
+//     line-height: 28px;
+//     margin-bottom: 10px;
+
+//     @media only screen and (max-width: 1024px) {
+//         font-size: 24px;
+//         color: #259de1;
+//         font-weight: bold;
+//         margin-top: 14px;
+//         line-height: 32px;
+//         text-align: center;
+//         padding: 25px 15px;
+//         width: 94%;
+//         margin: 0 auto;
+//     }
+// }
+
+// :global(.vtex-flex-layout-0-x-flexColChild--institucional__footer-content) {
+//     max-width: 1099px;
+//     margin: 0 auto;
+// }
+
+// :global(.vtex-flex-layout-0-x-flexRow--fc-institucional-items-contact) {
+//     width: 1099px;
+// }
+
+// :global(.vtex-rich-text-0-x-link--fc-text-email),
+// :global(.vtex-rich-text-0-x-paragraph--fc-text-phone),
+// :global(.vtex-rich-text-0-x-paragraph--fc-text-whatsapp) {
+//     text-decoration: none;
+//     color: #7f7f7f;
+//     font-size: 16px;
+// }

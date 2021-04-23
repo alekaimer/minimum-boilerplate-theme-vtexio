@@ -1,0 +1,1596 @@
+// .flexRowContent--menu-link,
+// .flexRowContent--main-header {
+//     padding: 0 0.5rem;
+// }
+
+// :global(.vtex-store-components-3-x-imageElement--banner-thin-mobile) {
+//     width: 100%;
+//     display: block;
+// }
+
+// @media screen and (min-width: 40em) {
+//     .flexRowContent--menu-link {
+//         padding: 0;
+//     }
+
+//     .flexRowContent--main-header {
+//         padding: 0 1rem;
+//     }
+// }
+// @media screen and (min-width: 80rem) {
+//     .flexRowContent--menu-link {
+//         padding: 0;
+//     }
+
+//     .flexRowContent--main-header {
+//         padding: 0 0.25rem;
+//     }
+// }
+
+// .flexRow--menu-link {
+//     :global(.vtex-store-components-3-x-container) {
+//         max-width: 1620px;
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+// }
+
+// .flexRowContent--menu-link {
+//     background-color: #ffffff;
+//     color: #222222;
+// }
+
+// :global(.vtex-store-components-3-x-sizeDesktop) {
+//     display: block;
+//     padding-left: 0;
+// }
+
+// .flexRow--main-header,
+// .flexRow--main-header-mobile {
+//     background-color: #ffffff;
+
+//     .flexRowContent--main-header {
+//         align-items: center;
+//         padding: 0;
+//     }
+
+//     :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+//         background-color: #20d7d0;
+//     }
+
+//     :global(.vtex-store-components-3-x-searchBarContainer) {
+//         @media only screen and (max-width: 1024px) {
+//             padding-bottom: 12px;
+//             padding-top: 0;
+//         }
+
+//         :global(.vtex-input-prefix__group) {
+//             border: 1px solid #50b8f3;
+//             width: 41.72vw;
+//             max-width: 801px;
+//             position: relative;
+
+//             @media only screen and (max-width: 1024px) {
+//                 width: 100%;
+//             }
+//         }
+
+//         :global(.vtex-styleguide-9-x-input) {
+//             background-color: #f0f0f0;
+//             width: 50vw;
+
+//             @media only screen and (max-width: 1024px) {
+//                 width: 100%;
+//             }
+//         }
+
+//         :global(.vtex-input__suffix) {
+//             background-color: transparent;
+//             position: absolute;
+//             top: 0;
+//             right: 0;
+//             height: 34px;
+//         }
+
+//         :global(.vtex-store-components-3-x-searchIcon) {
+//             color: #0d84c4;
+//         }
+//     }
+// }
+
+// .flexRowContent--main-header {
+//     justify-content: space-between;
+//     max-width: 1620px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// .flexRowContent--main-header-mobile {
+//     align-items: center;
+//     padding-top: 15px;
+//     background-color: #fff;
+//     padding-left: 18px;
+//     padding-right: 18px;
+// }
+
+// .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+//     color: #222222;
+//     font-size: 14px;
+// }
+
+// .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+//     color: #727273;
+//     font-size: 14px;
+// }
+
+// .flexCol--filterCol {
+//     max-width: 500px;
+//     min-width: 230px;
+// }
+
+// .flexCol--productCountCol {
+//     align-items: flex-start;
+//     justify-content: center;
+// }
+
+// .flexCol--orderByCol {
+//     align-items: flex-end;
+// }
+
+// .flexCol--orderByMobileCol {
+//     width: 42%;
+// }
+
+// .flexCol--filterMobileCol {
+//     width: 38%;
+// }
+
+// .flexRow--quickviewMainRow {
+//     display: flex;
+//     max-height: 100%;
+// }
+
+// .flexColChild--quickviewDetails:first-child {
+//     overflow-y: auto;
+//     height: 66% !important;
+//     overflow-x: hidden;
+// }
+
+// .flexColChild--quickviewDetails:last-child {
+//     height: 34% !important;
+// }
+
+// .flexRow--addToCartRow {
+//     padding-bottom: 1rem;
+// }
+
+// .flexRow--newsletter-row,
+// .flexRow--payment-methods,
+// .flexRow--security,
+// .flexRow--footer-menu,
+// .flexRow--footer-televendas-mobile {
+//     background-color: #1689ca;
+// }
+
+// .flexRow--header-group {
+//     .flexRowContent--header-group {
+//         justify-content: center;
+//         align-items: center;
+//     }
+// }
+
+// // DEALS
+// .flexRowContent--deals {
+//     .stretchChildrenWidth {
+//         .flexCol--deals {
+//             border-right: 1px solid #e0e0e0;
+
+//             &:last-child {
+//                 border: 0;
+//             }
+//         }
+
+//         &:first-child {
+//             @media only screen and (min-width: 1025px) {
+//                 width: 100% !important;
+//             }
+//         }
+
+//         &:last-child {
+//             @media only screen and (min-width: 1025px) {
+//                 width: 0% !important;
+//             }
+//         }
+//     }
+// }
+
+// .flexRow--deals {
+//     background-color: #fff;
+//     padding-top: 30px;
+
+//     :global(.vtex-store-components-3-x-container) {
+//         max-width: 70%;
+
+//         @media only screen and (max-width: 1024px) {
+//             max-width: 100%;
+//             :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel) {
+//                 background-color: #fff;
+//             }
+
+//             :global(.vtex-slider-layout-0-x-caretIcon--carousel) {
+//                 color: #1d316c;
+//             }
+//         }
+//     }
+
+//     .flexColChild--deals:first-child {
+//         margin-right: 20px;
+//     }
+
+//     .flexCol--deals {
+//         flex-direction: row;
+//         justify-content: center;
+//         align-items: center;
+//     }
+// }
+
+// .flexCol--text-deals {
+//     align-items: flex-start;
+// }
+
+// // NEWSLETTER HOME
+// .flexRow--newsletter-home {
+//     margin-top: 60px;
+
+//     @media only screen and (max-width: 1024px) {
+//         margin-top: 30px;
+//     }
+
+//     :global(.vtex-store-components-3-x-container) {
+//         padding-top: 42px;
+//         padding-bottom: 40px;
+//         background-color: #4eadb2;
+//         padding-left: 0;
+//         padding-right: 0;
+//         max-width: 1620px;
+
+//         @media only screen and (max-width: 1024px) {
+//             padding-top: 35px;
+//             padding-bottom: 30px;
+//         }
+//     }
+// }
+
+// // TRIPLE BANNERS AND DOUBLE BANNERS
+// .flexRow--triple-banners,
+// .flexRow--double-banners {
+//     margin-top: 60px;
+
+//     @media screen and (max-width: 1024px) {
+//         margin-top: 30px;
+//     }
+
+//     :global(.vtex-store-components-3-x-container) {
+//         max-width: 1620px;
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+
+//     .stretchChildrenWidth {
+//         transition: opacity 0.3s ease-in-out;
+//         cursor: pointer;
+//     }
+
+//     .stretchChildrenWidth:hover {
+//         opacity: 0.8;
+//         transition: opacity 0.25s ease-in-out;
+//     }
+// }
+
+// @media only screen and (max-width: 1024px) {
+//     .flexRowContent--double-banners,
+//     .flexRowContent--triple-banners {
+//         flex-direction: column;
+//         max-width: 95%;
+//         margin: 0 auto;
+
+//         .stretchChildrenWidth:first-child {
+//             margin-bottom: 20px;
+//         }
+//     }
+
+//     .flexRowContent--triple-banners {
+//         .stretchChildrenWidth:last-child {
+//             margin-top: 20px;
+//         }
+//     }
+// }
+
+// // BOX MARCAS
+// .flexRow--box-marcas {
+//     margin-top: 60px;
+
+//     @media only screen and (max-width: 1024px) {
+//         margin-top: 30px;
+//     }
+
+//     :global(.vtex-store-components-3-x-container) {
+//         max-width: 1620px;
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+
+//     :global(.vtex-slider-layout-0-x-sliderTrackContainer--box-marcas) {
+//         max-width: 95%;
+//     }
+
+//     :global(.vtex-slider-layout-0-x-sliderArrows--box-marcas) {
+//         color: #1d316c;
+//     }
+// }
+
+// // NEWSLETTER
+// .flexRow--newsletter-row::after {
+//     content: "";
+//     display: block;
+//     margin: 0 auto;
+//     width: 90%;
+//     max-width: 1058px;
+//     height: 1px;
+//     background-color: rgba(255, 255, 255, 0.2);
+// }
+
+// .flexRowContent--newsletter-row {
+//     padding-top: 42px;
+//     padding-bottom: 40px;
+// }
+
+// .flexCol--newsletter-title-content {
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .flexCol--newsletter-title {
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+
+//     .flexColChild--newsletter-title:first-child {
+//         margin-left: 20px;
+//         margin-right: 5px;
+
+//         :global(.vtex-rich-text-0-x-paragraph--newsletter-title-text) {
+//             font-weight: normal;
+//         }
+//     }
+
+//     :global(.vtex-rich-text-0-x-paragraph--newsletter-title-text) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: 24px;
+//         line-height: 130%;
+//         color: #ffffff;
+//         margin: 0;
+
+//         @media only screen and (max-width: 1024px) {
+//             font-size: 18px;
+//         }
+//     }
+// }
+
+// .flexRowContent--newsletter {
+//     justify-content: center;
+
+//     .stretchChildrenWidth:first-child {
+//         margin-right: 50px;
+//     }
+
+//     .flexCol {
+//         align-items: center;
+//         justify-content: center;
+//     }
+// }
+
+// :global(.vtex-store-newsletter-1-x-newsletterForm) {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     :global(.vtex-store-newsletter-1-x-nameInputContainer),
+//     :global(.vtex-store-newsletter-1-x-emailInputContainer) {
+//         width: 250px;
+//         margin-right: 10px;
+//         border-radius: 6px;
+//     }
+
+//     :global(.vtex-input-prefix__group) {
+//         border: 0;
+//     }
+
+//     :global(.vtex-styleguide-9-x-input) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 12px;
+//         line-height: 140%;
+//     }
+
+//     :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
+//         width: 250px;
+
+//         :global(.vtex-button) {
+//             border: 0;
+//             background-color: #1d316c;
+//             border-radius: 6px;
+//             width: 100%;
+//         }
+
+//         :global(.vtex-button__label) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 1024px) {
+//     .flexRowContent--newsletter {
+//         align-items: center;
+//         flex-direction: column;
+
+//         .stretchChildrenWidth:first-child {
+//             margin-right: 0;
+//             margin-bottom: 20px;
+//         }
+
+//         .flexCol--newsletter-title-content {
+//             flex-direction: column;
+
+//             .flexColChild--newsletter-title-content:first-child {
+//                 margin-bottom: 20px;
+//             }
+//         }
+
+//         .flexCol--newsletter-title {
+//             flex-direction: column;
+
+//             .flexColChild--newsletter-title:first-child {
+//                 margin-left: 0;
+//                 margin-right: 0;
+//             }
+//         }
+
+//         :global(.vtex-store-newsletter-1-x-newsletterForm) {
+//             flex-direction: column;
+
+//             :global(.vtex-store-newsletter-1-x-nameInputContainer),
+//             :global(.vtex-store-newsletter-1-x-emailInputContainer) {
+//                 margin-right: 0;
+//                 margin-bottom: 10px;
+//             }
+//         }
+//     }
+// }
+
+// // PAYMENTS METHODS
+// .flexRow--payment-methods::after {
+//     content: "";
+//     display: block;
+//     margin: 0 auto;
+//     width: 90%;
+//     max-width: 923px;
+//     height: 1px;
+//     background-color: rgba(255, 255, 255, 0.2);
+// }
+
+// .flexRowContent--payment-methods {
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     align-items: center;
+//     padding-top: 20px;
+//     padding-bottom: 35px;
+
+//     @media only screen and (max-width: 1024px) {
+//         display: flex;
+//         max-width: 258px;
+//         margin: 0 auto;
+//         padding-bottom: 20px;
+//     }
+
+//     .stretchChildrenWidth:first-child {
+//         width: 100% !important;
+//         margin-bottom: 20px;
+
+//         :global(.vtex-rich-text-0-x-container--payments-type) {
+//             justify-content: center;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--payments-type) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 16px;
+//             line-height: 130%;
+//             color: #fff;
+//             margin: 0;
+//         }
+//     }
+
+//     .stretchChildrenWidth {
+//         margin-right: 5px;
+
+//         @media only screen and (max-width: 1024px) {
+//             :global(.vtex-store-components-3-x-imageElement--payment-margin) {
+//                 margin-bottom: 5px;
+//             }
+//         }
+//     }
+
+//     .stretchChildrenWidth:last-child {
+//         margin-right: 0px;
+//     }
+// }
+
+// // SECURITY
+// .flexRowContent--security {
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     align-items: center;
+//     padding-top: 20px;
+//     padding-bottom: 60px;
+
+//     @media only screen and (max-width: 1024px) {
+//         display: flex;
+//         padding-bottom: 28px;
+//     }
+
+//     .stretchChildrenWidth {
+//         margin-right: 20px;
+//     }
+
+//     .stretchChildrenWidth:last-child {
+//         margin-right: 0;
+//     }
+// }
+
+// // COPYRIGHT
+// .flexRow--copyright {
+//     margin-top: 30px;
+//     margin-bottom: 30px;
+
+//     :global(.vtex-rich-text-0-x-paragraph--copyright) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 12px;
+//         line-height: 130%;
+//         color: #37373c;
+//         margin-top: 0;
+//         margin-bottom: 40px;
+//     }
+
+//     .flexColChild--copyright {
+//         display: flex;
+//         justify-content: center;
+//     }
+// }
+
+// // SHELF
+// .flexRow--shelf {
+//     margin-top: 60px;
+
+//     @media only screen and (max-width: 1024px) {
+//         margin-top: 30px;
+//     }
+
+//     :global(.vtex-slider-layout-0-x-caretIcon--shelf) {
+//         color: #1d316c;
+//     }
+
+//     :global(.vtex-slider-layout-0-x-paginationDotsContainer--shelf) {
+//         bottom: 0;
+//     }
+
+//     :global(.vtex-slider-layout-0-x-paginationDot--shelf--isActive) {
+//         background-color: #1d316c;
+//     }
+
+//     :global(.vtex-store-components-3-x-container) {
+//         padding-right: 0;
+//         padding-left: 0;
+//         max-width: 1620px;
+//     }
+
+//     @media only screen and (max-width: 1024px) {
+//         :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+//             padding-left: 0 !important;
+//             padding-right: 0 !important;
+//             padding-bottom: 10px;
+//         }
+//     }
+
+//     .flexRowContent--shelf {
+//         flex-direction: column;
+//     }
+
+//     .flexRowContent--shelf.flexRowContent--banner-shelf {
+//         flex-direction: row;
+//         align-items: center;
+//     }
+
+//     .flexRowContent--banner-shelf {
+//         .stretchChildrenWidth:first-child {
+//             max-width: 527px;
+//         }
+//         .stretchChildrenWidth:last-child {
+//             max-width: 1025px;
+//         }
+//     }
+
+//     :global(.vtex-rich-text-0-x-paragraph--shelf-title) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: 30px;
+//         line-height: 130%;
+//         color: #282828;
+//         margin-top: 0;
+//         margin-bottom: 44.5px;
+
+//         @media only screen and (max-width: 1024px) {
+//             font-size: 20px;
+//             margin-left: 15px;
+//             margin-bottom: 20px;
+//         }
+//     }
+
+//     .flexRow--row-shelf-title {
+//         margin-bottom: 44.5px;
+
+//         @media only screen and (max-width: 1024px) {
+//             margin-bottom: 20px;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--shelf-title) {
+//             margin-bottom: 0;
+//         }
+
+//         :global(.vtex-store-link-0-x-link--ver-mais) {
+//             font-family: "Open Sans" sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #1689ca;
+//             margin-left: 20px;
+//         }
+//     }
+
+//     .flexRowContent--row-shelf-title {
+//         justify-content: flex-start;
+//         align-items: center;
+//     }
+
+//     :global(.vtex-product-summary-2-x-element) {
+//         padding-top: 0;
+//     }
+
+//     :global(.vtex-rich-text-0-x-wrapper--shelf-title-highlight) {
+//         margin-right: 7.5px;
+
+//         :global(.vtex-rich-text-0-x-paragraph--shelf-title-highlight)::before {
+//             content: "";
+//             display: block;
+//             width: 40px;
+//             height: 47px;
+//             background-image: url(https://ortobomshop.vteximg.com.br/arquivos/icon-offer.svg);
+//             margin-right: 16px;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--shelf-title-highlight) {
+//             font-size: 30px;
+//             color: #4eadb2;
+//             display: flex;
+//             align-items: center;
+//         }
+//     }
+
+//     :global(.vtex-rich-text-0-x-paragraph--shelf-title-minor) {
+//         font-size: 24px;
+//         margin-top: 5px;
+//     }
+// }
+
+// // MENU
+// .flexRow--submenu-area {
+//     :global(.vtex-store-components-3-x-imageElement--banner-menu) {
+//         display: block;
+//         width: 100%;
+//     }
+// }
+
+// // FOOTER MENU
+// .flexRow--footer-menu {
+//     padding-bottom: 200px;
+
+//     @media only screen and (max-width: 1024px) {
+//         padding-bottom: 30px;
+//     }
+
+//     .flexRowContent--footer-menu {
+//         justify-content: center;
+//     }
+
+//     .flexCol--departaments-menu {
+//         flex-direction: row;
+//     }
+
+//     .flexColChild--departaments-menu {
+//         display: flex;
+//         align-items: flex-end;
+
+//         :global(.vtex-rich-text-0-x-paragraph--departaments-menu-title) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #fff;
+//             margin-top: 0;
+//             margin-bottom: 12px;
+//         }
+//     }
+
+//     .flexColChild--departaments-menu:first-child {
+//         :global(.vtex-menu-2-x-styledLinkContainer) {
+//             margin-left: 0;
+//         }
+//     }
+
+//     :global(.vtex-menu-2-x-styledLink) {
+//         color: #fff;
+//         font-size: 12px;
+//     }
+
+//     :global(.vtex-menu-2-x-menuItem) {
+//         border: none;
+
+//         &:hover {
+//             border: none;
+//         }
+//     }
+
+//     .flexCol--institucional-menu,
+//     .flexRowContent--footer-televendas-mobile {
+//         padding-left: 40px;
+//         margin-right: 40px;
+//         border-left: 1px solid rgba(255, 255, 255, 0.2);
+//         max-width: 210px;
+
+//         :global(.vtex-menu-2-x-styledLinkContainer) {
+//             margin: 0;
+//             padding: 5px 0;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--departaments-menu-title) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #fff;
+//             margin-top: 0;
+//             margin-bottom: 12px;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--sac-title) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #fff;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--sac-number) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 12px;
+//             line-height: 130%;
+//             color: #fff;
+//             margin-top: 0;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--footer-btn) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//             margin: 0;
+//             padding: 10px 0;
+//             width: 170px;
+//             border: 1px solid #fff;
+//             color: #fff;
+//         }
+//     }
+
+//     .flexColChild--institucional-menu:first-child {
+//         margin-bottom: 40px;
+//     }
+
+//     .flexColChild--televendas,
+//     .flexRowContent--footer-televendas-mobile {
+//         margin-bottom: 4px !important;
+
+//         :global(.vtex-rich-text-0-x-paragraph--footer-text) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-size: 14px;
+//             line-height: 140%;
+//             color: #fff;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--wpp) {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             margin-bottom: 5px;
+
+//             &::before {
+//                 content: "";
+//                 display: block;
+//                 width: 20px;
+//                 height: 21px;
+//                 margin-right: 10px;
+//                 background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-whatsapp.svg");
+//                 background-position: center;
+//                 background-size: cover;
+//                 background-repeat: no-repeat;
+//             }
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--email) {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             margin-bottom: 13px;
+
+//             &::before {
+//                 content: "";
+//                 display: block;
+//                 width: 21px;
+//                 height: 21px;
+//                 margin-right: 10px;
+//                 background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-mail-x.svg");
+//                 background-position: center;
+//                 background-size: cover;
+//                 background-repeat: no-repeat;
+//             }
+//         }
+//     }
+
+//     .flexRowContent--scoial-media {
+//         justify-content: flex-start;
+
+//         .stretchChildrenWidth:first-child {
+//             margin-right: 30px;
+//         }
+//     }
+
+//     .flexRowContent--footer-menu-mobile {
+//         .stretchChildrenWidth {
+//             border-bottom: 1px solid #fff;
+//         }
+//     }
+
+//     :global(.vtex-menu-2-x-styledLinkContent--footer-menu-mobile) {
+//         justify-content: center;
+//         position: relative;
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: 14px;
+//         line-height: 130%;
+//         color: #fff;
+//     }
+
+//     :global(.vtex-menu-2-x-accordionIcon--footer-menu-mobile) {
+//         position: absolute;
+//         right: 0;
+//         color: #fff;
+//         font-weight: initial;
+//         font-size: 16px;
+//     }
+
+//     :global(.vtex-menu-2-x-submenuAccordion) {
+//         display: flex;
+//         flex-direction: column;
+//         padding-left: 0;
+//     }
+
+//     :global(.vtex-store-components-3-x-container) {
+//         padding: 0;
+//     }
+
+//     @media only screen and (max-width: 1024px) {
+//         .flexRowContent--footer-televendas-mobile {
+//             margin-left: auto;
+//             margin-right: auto;
+//             padding: 0;
+//             border: 0;
+//             max-width: initial;
+
+//             :global(.vtex-rich-text-0-x-container--departaments-menu-title),
+//             :global(.vtex-rich-text-0-x-container--footer-btn),
+//             :global(.vtex-rich-text-0-x-container--footer-text) {
+//                 justify-content: center;
+//             }
+
+//             :global(.vtex-rich-text-0-x-paragraph--telefone) {
+//                 border: 0;
+//                 font-weight: bold;
+//                 font-size: 24px;
+//                 width: auto;
+//             }
+
+//             :global(.vtex-rich-text-0-x-paragraph--footer-text) {
+//                 text-align: center;
+//             }
+
+//             .flexRowContent--scoial-media {
+//                 display: flex;
+//                 flex-direction: row;
+//                 justify-content: center;
+//             }
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 1024px) {
+//     :global(.vtex-sticky-layout-0-x-wrapper--stuck) {
+//         :global(.vtex-store-components-3-x-logoLink) {
+//             transform: initial !important;
+//         }
+//     }
+
+//     .flexRow--main-header-mobile {
+//         :global(.vtex-store-components-3-x-sizeMobile) {
+//             padding: 0;
+//             display: block;
+//             max-width: 102px;
+//             max-height: initial;
+//             margin-right: 35px;
+
+//             :global(.vtex-store-components-3-x-logoImage) {
+//                 display: block;
+//             }
+//         }
+
+//         :global(.vtex-store-drawer-0-x-openIconContainer) {
+//             padding: 0;
+//             margin-right: 22px;
+//         }
+
+//         :global(.vtex-minicart-2-x-openIconContainer) {
+//             padding: 0;
+//         }
+
+//         :global(.vtex-store-link-0-x-link--wishlist) {
+//             display: block;
+//             width: 26px;
+//             height: 26px;
+//             background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-favorite.svg");
+//             background-position: center;
+//             background-size: cover;
+//             background-repeat: no-repeat;
+//             margin-right: 20px;
+//         }
+//     }
+// }
+
+// :global(.vtex-store-link-0-x-link--wishlist) {
+//     display: block;
+//     width: 25px !important;
+//     height: 25px;
+//     background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-favorite.svg");
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     margin-right: 30px;
+// }
+
+// :global(.vtex-store-link-0-x-link--orders) {
+//     display: block;
+//     width: 25px !important;
+//     height: 25px;
+//     background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-pedido.svg");
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     margin-right: 30px;
+// }
+
+// // MINICART
+// .flexRow--minicart-product {
+//     .flexRowContent--minicart-product {
+//         display: flex;
+//         flex-direction: row;
+//         align-items: center;
+//         max-width: 100%;
+//     }
+
+//     :global(.vtex-product-list-0-x-productName) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 14px;
+//         line-height: 130%;
+//         color: #222222;
+//         margin-bottom: 7px;
+//     }
+
+//     :global(.vtex-product-list-0-x-productIdentifierValue) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 10px;
+//         line-height: 130%;
+//         color: #9d9ba0;
+//         margin-bottom: 7px;
+//     }
+
+//     :global(.vtex-product-list-0-x-price) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: 16px;
+//         line-height: 130%;
+//         color: #222222;
+//     }
+
+//     .flexCol--minicart-product-actions {
+//         align-items: flex-end;
+//     }
+// }
+
+// // PDP
+// .flexRow--product-breadcrumb {
+//     :global(.vtex-store-components-3-x-container) {
+//         max-width: 1620px;
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-container) {
+//         padding: 0;
+//         // margin-top: 15px;
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-homeLink) {
+//         &::before {
+//             content: "Home";
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: normal;
+//             font-size: 12px;
+//             line-height: 130%;
+//             color: #1689ca;
+//         }
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-homeIcon) {
+//         display: none;
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-arrow) {
+//         color: #1689ca;
+
+//         :global(.vtex-breadcrumb-1-x-link) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: normal;
+//             font-size: 12px;
+//             line-height: 130%;
+//             color: #1689ca;
+//         }
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-term) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 12px;
+//         line-height: 130%;
+//         color: #222222;
+//     }
+// }
+
+// .flexRow--product-page {
+//     :global(.vtex-store-components-3-x-container) {
+//         max-width: 1620px;
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+
+//     .flexRowContent--product-page {
+//         padding: 0;
+//         margin-top: 15px;
+//     }
+
+//     :global(.vtex-store-components-3-x-productNameContainer) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 24px;
+//         line-height: 130%;
+//         color: #222222;
+//         margin-bottom: 10px;
+//     }
+
+//     .flexRowContent--product-name {
+//         margin-bottom: 0;
+//     }
+
+//     .flexRowContent--product-ref {
+//         justify-content: flex-start;
+//         align-items: center;
+//         margin-bottom: 20px;
+
+//         .stretchChildrenWidth {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: normal;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #9d9ba0;
+//             margin-bottom: 0;
+//             padding-right: 0;
+
+//             &::after {
+//                 content: "|";
+//                 display: block;
+//                 margin-left: 10px;
+//                 margin-right: 10px;
+//             }
+
+//             &:last-child::after {
+//                 display: none;
+//             }
+//         }
+
+//         :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: normal;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #9d9ba0;
+//             margin-bottom: 0;
+//         }
+
+//         :global(.vtex-store-link-0-x-link--product-link-description) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: normal;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #9d9ba0;
+//         }
+//     }
+
+//     .flexRowContent--product-selling-price {
+//         margin-bottom: 5px;
+
+//         :global(.vtex-product-price-1-x-sellingPrice),
+//         :global(.vtex-product-price-1-x-sellingPriceValue),
+//         :global(.vtex-product-price-1-x-currencyContainer),
+//         :global(.vtex-product-price-1-x-currencyCode),
+//         :global(.vtex-product-price-1-x-currencyLiteral),
+//         :global(.vtex-product-price-1-x-currencyInteger),
+//         :global(.vtex-product-price-1-x-currencyGroup),
+//         :global(.vtex-product-price-1-x-currencyInteger),
+//         :global(.vtex-product-price-1-x-currencyDecimal),
+//         :global(.vtex-product-price-1-x-currencyFraction) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 24px;
+//             line-height: 130%;
+//             color: #222222;
+//         }
+//     }
+
+//     .flexRowContent--product-installments {
+//         :global(.vtex-product-price-1-x-installments--product-page) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//             color: #222222;
+//         }
+//     }
+
+//     .flexRowContent--buy-button {
+//         max-width: 462px;
+//         margin-bottom: 20px;
+
+//         :global(.vtex-button) {
+//             background-color: #11ab6b;
+//             border: 0;
+//             border-radius: 6px;
+//         }
+
+//         :global(.vtex-button__label) {
+//             padding: 0 !important;
+//             height: auto;
+//         }
+
+//         :global(.vtex-add-to-cart-button-0-x-buttonText) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//             display: flex;
+//             align-items: center;
+
+//             &::after {
+//                 content: "";
+//                 display: block;
+//                 width: 14px;
+//                 height: 14px;
+//                 background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-cart.svg");
+//                 background-repeat: no-repeat;
+//                 background-size: cover;
+//                 background-position: center;
+//                 margin-left: 5px;
+//             }
+//         }
+//     }
+
+//     .flexRowContent--shipping-simulator {
+//         position: relative;
+//         margin-bottom: 20px;
+
+//         .stretchChildrenWidth {
+//           flex-direction: column;
+//         }
+
+//         :global(.vtex-store-components-3-x-shippingContainer) {
+//             display: flex;
+//             align-items: center;
+//             padding-right: 15px;
+//         }
+
+//         :global(.vtex-address-form__postalCode) {
+//             width: 130px;
+
+//             :global(.vtex-input) {
+//                 width: 130px;
+//                 font-family: "Open Sans", sans-serif;
+//                 font-style: normal;
+//                 font-weight: normal;
+//                 font-size: 12px;
+//                 line-height: 140%;
+//                 color: #818284;
+
+//                 :global(.vtex-input-prefix__group) {
+//                     border: 1px solid #e0e0e0;
+//                     background-color: #fff;
+//                 }
+
+//                 :global(.vtex-input__label) {
+//                     font-size: 0;
+//                 }
+
+//                 &::before {
+//                     content: "Calcule o frete e prazo de entrega";
+//                     font-family: "Open Sans", sans-serif;
+//                     font-style: normal;
+//                     font-weight: normal;
+//                     font-size: 14px;
+//                     line-height: 130%;
+//                     color: #222222;
+//                     display: block;
+//                     position: absolute;
+//                     top: 0;
+//                 }
+//             }
+
+//             :global(.vtex__icon-external-link) {
+//                 display: none;
+//             }
+
+//             :global(.vtex-input__suffix) {
+//                 display: none;
+//             }
+//         }
+
+//         :global(.vtex-button) {
+//             width: 100px;
+//             border-radius: 6px;
+//             border: 1px solid #259de1;
+//             background-color: #fff;
+//             margin-left: 5px;
+//             margin-top: -5px;
+
+//             :global(.vtex-button__label) {
+//                 display: none;
+//             }
+
+//             &::after {
+//                 content: "Calcular";
+//                 display: block;
+//                 font-family: "Open Sans", sans-serif;
+//                 font-style: normal;
+//                 font-weight: bold;
+//                 font-size: 14px;
+//                 line-height: 130%;
+//                 color: #259de1;
+//                 padding: 10px 0;
+//             }
+//         }
+//     }
+
+//     .flexRowContent--ajuda {
+//         flex-direction: column;
+
+//         :global(.vtex-rich-text-0-x-paragraph) {
+//             margin: 0;
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: bold;
+//             font-size: 14px;
+//             line-height: 130%;
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--product-ajuda-wpp) {
+//             display: flex;
+//             align-items: center;
+//             color: #25d366;
+//             margin-bottom: 10px;
+
+//             &::before {
+//                 content: "";
+//                 display: block;
+//                 width: 23px;
+//                 height: 23px;
+//                 background-image: url("https://ortobomshop.vteximg.com.br/arquivos/icon-whatsapp-green.svg");
+//                 background-repeat: no-repeat;
+//                 background-size: cover;
+//                 background-position: center;
+//                 margin-right: 10px;
+//             }
+//         }
+
+//         :global(.vtex-rich-text-0-x-paragraph--product-ajuda-text) {
+//             color: #494b4d;
+//             margin-bottom: 10px;
+//             font-weight: normal;
+//         }
+//     }
+// }
+
+// :global(.vtex-product-price-1-x-sellingPrice) {
+//     text-align: left;
+// }
+
+// .flexRow--product-description {
+//     :global(.vtex-store-components-3-x-productDescriptionTitle) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: 30px;
+//         line-height: 130%;
+//         color: #282828;
+//     }
+
+//     :global(.vtex-store-components-3-x-productDescriptionText) {
+//         font-family: "Open Sans", sans-serif;
+//         font-style: normal;
+//         font-weight: normal;
+//         font-size: 14px;
+//         line-height: 130%;
+//         color: #222222;
+//     }
+// }
+
+// // SEARCH RESULT
+// .flexRow--search-breadcrumb {
+//     :global(.vtex-store-components-3-x-container) {
+//         max-width: 1620px;
+//         padding-left: 0;
+//         padding-right: 0;
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-container) {
+//         padding: 0;
+//         //margin-top: 15px;
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-homeLink) {
+//         &::before {
+//             content: "Home";
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: normal;
+//             font-size: 12px;
+//             line-height: 130%;
+//             color: #1689ca;
+//         }
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-homeIcon) {
+//         display: none;
+//     }
+
+//     :global(.vtex-breadcrumb-1-x-arrow) {
+//         color: #1689ca;
+
+//         :global(.vtex-breadcrumb-1-x-link) {
+//             font-family: "Open Sans", sans-serif;
+//             font-style: normal;
+//             font-weight: normal;
+//             font-size: 12px;
+//             line-height: 130%;
+//             color: #222222;
+//         }
+//     }
+// }
+
+// // *********** Catalog ***********
+
+// .flexRow {
+//     &--search-info {
+//         height: 77px;
+//         align-items: center;
+//         display: flex;
+//     }
+
+//     &--search-button-more {
+//         margin-top: 40px;
+//         margin-bottom: 80px;
+
+//         @media only screen and (max-width: 640px) {
+//             margin-bottom: 0;
+//         }
+//     }
+
+//     &--search-info-mobile {
+//         margin: 30px 0 40px;
+//     }
+// }
+
+// .flexRowContent {
+//     &--search-info {
+//         //max-height: 36px;
+//         justify-content: flex-end;
+
+//         .stretchChildrenWidth {
+//             width: auto !important;
+//             max-width: 160px;
+//         }
+//     }
+
+//     &--search-filter {
+//         justify-content: space-between;
+//     }
+// }
+
+// .flexCol {
+//     .flexColChild {
+//         &--productCountCol {
+//             align-items: center;
+//             justify-content: center;
+//             display: flex;
+//         }
+
+//         &--filterCol {
+//             width: 290px;
+//             margin-right: 40px;
+//         }
+//     }
+// }
+
+// .flexColChild {
+//     &--filterCol {
+//         margin: 0;
+//         padding: 0;
+//     }
+// }
+
+// /* WISHLIST */
+// .flexRowContent--wishlist {
+//     height: 150px;
+//     background: linear-gradient(91.97deg, #003c5a 2.4%, #0096aa 100%);
+
+//     @media only screen and (max-width: 640px) {
+//         height: 80px;
+//     }
+// }
+
+// .flexRow--wishlist {
+//     :global(.vtex-store-components-3-x-container) {
+//         padding: 0;
+//         margin: 0 0 20px;
+//         max-width: 100%;
+
+//         @media only screen and (max-width: 1024px) {
+//             margin: 0 0 45px;
+//         }
+//     }
+// }
+
+// .flexCol--wishlist-title {
+//     justify-content: center;
+// }
+
+// /*  FALE CONOSCO */
+
+// // Institucional: Fale Conosco
+// .flexRow {
+//     &--institucional__footer-container {
+//         max-width: 1280px;
+//         margin: 40px auto 98px;
+//         padding-top: 40px;
+//         border-top: 1px solid #bdbdbd;
+
+//         @media only screen and (max-width: 1025px) {
+//             margin: 0 !important;
+//             padding: 0 !important;
+//         }
+//     }
+
+//     // &--institucional__footer-container--mobile {
+//     //     width: calc(100% - 30px);
+//     //     margin: 40px auto 56px;
+//     //     padding-top: 20px;
+//     //     border-top: 1px solid #bdbdbd;
+//     // }
+
+//     &--institucional__form-container {
+//         max-width: 998px;
+//         margin: 38px auto 0;
+//         @media only screen and (max-width: 1025px) {
+//             margin: 15px 0;
+//         }
+//     }
+
+//     &--contato__row-inputs {
+//         justify-content: space-between;
+//         margin-bottom: 18px;
+//     }
+
+//     &--contato__row-textarea {
+//         margin-bottom: 40px;
+//         @media only screen and (max-width: 1024px) {
+//             margin-bottom: 0;
+//         }
+//     }
+// }
+// // Price savings
+// .flexRowContent--product-price-savings {
+//   align-items: center;
+
+//   :global(.vtex-product-price-1-x-listPrice) {
+//     margin: 0;
+//     font-size: 14px;
+//   }
+
+//   :global(.vtex-product-price-1-x-savings) {
+//     background-color: #4eadb2;
+//     color: #fff;
+//     padding: 4px;
+//     border-radius: 4px;
+//     font-size: 12px;
+//     font-weight: 700;
+//     margin-left: 24px;
+//   }
+// }
