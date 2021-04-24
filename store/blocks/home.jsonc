@@ -9,7 +9,8 @@
       "text": "Loja de teste do Alexandre Kaimer",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": "class-teste"
     }
   }
 }

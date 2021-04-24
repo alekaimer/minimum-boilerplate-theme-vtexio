@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -14,7 +20,10 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#desktop",
+      "flex-layout.row#2-desktop"
+    ]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -33,6 +42,16 @@
       "minicart.v2"
     ]
   },
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -42,7 +61,9 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": [
+      "logo"
+    ]
   },
   "logo": {
     "props": {
@@ -53,10 +74,14 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
+    "children": [
+      "sticky-layout#mobile"
+    ]
   },
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": [
+      "flex-layout.row#mobile"
+    ]
   },
   "flex-layout.row#mobile": {
     "children": [

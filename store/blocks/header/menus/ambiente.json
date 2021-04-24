@@ -1,0 +1,209 @@
+{
+    "menu-item#ambiente": {
+        "props": {
+          "blockClass": "menu-item-ambiente",
+          "id": "menu-item-category-ambiente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente",
+            "noFollow": false,
+            "tagTitle": "ambiente",
+            "text": "Por Ambiente"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#ambiente"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#ambiente": {
+        "props": {
+          "width": "auto"
+        },
+        "children": [
+          "flex-layout.col#submenu-ambiente-1",
+          "flex-layout.col#submenu-ambiente-2"
+        ]
+    },
+
+    "flex-layout.col#submenu-ambiente-1": {
+        "children": ["vtex.menu@2.x:menu#ambiente"]
+    },
+
+    "vtex.menu@2.x:menu#ambiente": {
+        "props": {
+          "blockClass": "submenu-container",
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#category-ambiente-quarto",
+          "menu-item#category-ambiente-quarto-infantil",
+          "menu-item#category-ambiente-quarto-bebe",
+          "menu-item#category-ambiente-sala-de-estar",
+          "menu-item#category-ambiente-sala-jantar",
+          "menu-item#category-ambiente-escritorio",
+          "menu-item#category-ambiente-cozinha",
+          "menu-item#category-ambiente-banheiro",
+          "menu-item#category-ambiente-more"
+        ]
+    },
+
+    "menu-item#category-ambiente-quarto": {
+        "props": {
+          "id": "menu-item-category-ambiente-quarto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/quarto/",
+            "noFollow": false,
+            "tagTitle": "ambiente-quarto",
+            "text": "Quarto"
+          }
+        }
+    },
+      
+    "menu-item#category-ambiente-quarto-infantil": {
+        "props": {
+          "id": "menu-item-category-ambiente-quarto-infantil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/quarto-infantil/",
+            "noFollow": false,
+            "tagTitle": "ambiente-quarto-infantil",
+            "text": "Quarto Infantil"
+          }
+        }
+    },
+
+    "menu-item#category-ambiente-quarto-bebe": {
+        "props": {
+          "id": "menu-item-category-ambiente-quarto-bebe",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/quarto-bebe/",
+            "noFollow": false,
+            "tagTitle": "ambiente-quarto-bebe",
+            "text": "Quarto Bebê"
+          }
+        }
+    },
+
+    "menu-item#category-ambiente-sala-de-estar": {
+        "props": {
+          "id": "menu-item-category-ambiente-sala-de-estar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/sala-de-estar/",
+            "noFollow": false,
+            "tagTitle": "ambiente-sala-de-estar",
+            "text": "Sala de estar"
+          }
+        }
+    },
+
+    "menu-item#category-ambiente-sala-jantar": {
+        "props": {
+          "id": "menu-item-category-ambiente-sala-jantar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/sala-jantar/",
+            "noFollow": false,
+            "tagTitle": "ambiente-sala-jantar",
+            "text": "Sala Jantar"
+          }
+        }
+    },
+
+    "menu-item#category-ambiente-escritorio": {
+        "props": {
+          "id": "menu-item-category-ambiente-escritorio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/escritorio/",
+            "noFollow": false,
+            "tagTitle": "ambiente-escritorio",
+            "text": "Escritório"
+          }
+        }
+    },
+
+    "menu-item#category-ambiente-cozinha": {
+        "props": {
+          "id": "menu-item-category-ambiente-cozinha",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/cozinha/",
+            "noFollow": false,
+            "tagTitle": "ambiente-cozinha",
+            "text": "Cozinha"
+          }
+        }
+    },
+
+    "menu-item#category-ambiente-banheiro": {
+        "props": {
+          "id": "menu-item-category-ambiente-banheiro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/banheiro/",
+            "noFollow": false,
+            "tagTitle": "ambiente-banheiro",
+            "text": "Banheiro"
+          }
+        }
+    },
+
+    "menu-item#category-ambiente-more": {
+        "props": {
+          "id": "menu-item-category-ambiente-more",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ambiente/more/",
+            "noFollow": false,
+            "tagTitle": "ambiente-more",
+            "text": "+ Por Ambiente"
+          }
+        }
+    },
+    
+    "flex-layout.col#submenu-ambiente-2": {
+        "children": ["image#submenu-ambiente"]
+    },
+
+    "image#submenu-ambiente": {
+        "props": {
+          "src": "https://ortobomshop.vteximg.com.br/arquivos/banner-departamento.jpg",
+          "maxHeight": "340px",
+          "blockClass": "banner-menu"
+        }
+    }
+}

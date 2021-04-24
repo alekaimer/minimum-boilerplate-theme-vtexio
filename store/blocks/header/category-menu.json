@@ -1,0 +1,38 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#all",
+      "menu-item#ortobom",
+      "menu-item#ofertas",
+      "menu-item#celulares",
+      "menu-item#eletro",
+      "menu-item#cama-mesa-banho",
+      "menu-item#ambiente",
+      "menu-item#lancamento",
+      "menu-item#promocoes"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu",
+      "itemProps": {
+          "activeClassName": "active"
+      }
+    }
+  },
+  "menu-item#ortobom": {
+    "props": {
+      "blockClass": "menu-item-ortobom",
+      "id": "menu-item-category-ortobom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ortobom",
+        "noFollow": false,
+        "tagTitle": "ortobom",
+        "text": "A Ortobom"
+      }
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+    "menu-item#all": {
+        "props": {
+          "blockClass": "menu-item-all",
+          "id": "menu-item-category-all",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "all",
+            "text": "Todos os departamentos"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#all"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#all": {
+        "props": {
+          "width": "auto"
+        },
+        "children": [
+          "flex-layout.col#submenu-all",
+          "flex-layout.col#submenu-all-2",
+          "flex-layout.col#submenu-all-3",
+          "flex-layout.col#submenu-all-4"
+        ]
+    },
+
+    "flex-layout.col#submenu-all": {
+        "children": ["vtex.menu@2.x:menu#all"]
+    },
+
+    "vtex.menu@2.x:menu#all": {
+        "props": {
+          "blockClass": "submenu-container",
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#category-all-acessorio-tecnologia",
+          "menu-item#category-all-ar-ventilacao",
+          "menu-item#category-all-audio",
+          "menu-item#category-all-automotivo",
+          "menu-item#category-all-bebes",
+          "menu-item#category-all-beleza-perfumaria",
+          "menu-item#category-all-brinquedos",
+          "menu-item#category-all-cama-mesa-banho",
+          "menu-item#category-all-casa-construcao",
+          "menu-item#category-all-celulares",
+          "menu-item#category-all-colchoes",
+          "menu-item#category-all-comercio-industria"
+        ]
+    },
+
+    "menu-item#category-all-acessorio-tecnologia": {
+        "props": {
+          "id": "menu-item-category-all-jogos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/acessorio-tecnologia/",
+            "noFollow": false,
+            "tagTitle": "all-acessorio-tecnologia",
+            "text": "Acessório de Tecnologia"
+          }
+        }
+    },
+
+    "menu-item#category-all-ar-ventilacao": {
+        "props": {
+          "id": "menu-item-category-all-ar-ventilacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/ar-ventilacao/",
+            "noFollow": false,
+            "tagTitle": "all-ar-ventilacao",
+            "text": "Ar e Ventilação"
+          }
+        }
+    },
+
+    "menu-item#category-all-audio": {
+        "props": {
+          "id": "menu-item-category-all-audio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/audio/",
+            "noFollow": false,
+            "tagTitle": "all-audio",
+            "text": "Áudio"
+          }
+        }
+    },
+
+    "menu-item#category-all-automotivo": {
+        "props": {
+          "id": "menu-item-category-all-automotivo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/automotivo/",
+            "noFollow": false,
+            "tagTitle": "all-automotivo",
+            "text": "Automotivo"
+          }
+        }
+    },
+
+    "menu-item#category-all-bebes": {
+        "props": {
+          "id": "menu-item-category-all-bebes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/bebes/",
+            "noFollow": false,
+            "tagTitle": "all-bebes",
+            "text": "Bebês"
+          }
+        }
+    },
+
+    "menu-item#category-all-beleza-perfumaria": {
+        "props": {
+          "id": "menu-item-category-all-beleza-perfumaria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/beleza-perfumaria/",
+            "noFollow": false,
+            "tagTitle": "all-beleza-perfumaria",
+            "text": "Beleza e Perfumaria"
+          }
+        }
+    },
+
+    "menu-item#category-all-brinquedos": {
+        "props": {
+          "id": "menu-item-category-all-brinquedos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/brinquedos/",
+            "noFollow": false,
+            "tagTitle": "all-brinquedos",
+            "text": "Brinquedos"
+          }
+        }
+    },
+
+    "menu-item#category-all-cama-mesa-banho": {
+        "props": {
+          "id": "menu-item-category-all-cama-mesa-banho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/cama-mesa-banho/",
+            "noFollow": false,
+            "tagTitle": "all-cama-mesa-banho",
+            "text": "Cama, Mesa e Banho"
+          }
+        }
+    },
+
+    "menu-item#category-all-casa-construcao": {
+        "props": {
+          "id": "menu-item-category-all-casa-construcao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/casa-construcao/",
+            "noFollow": false,
+            "tagTitle": "all-casa-construcao",
+            "text": "Casa e Construção"
+          }
+        }
+    },
+
+    "menu-item#category-all-celulares": {
+        "props": {
+          "id": "menu-item-category-all-celulares",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/celulares/",
+            "noFollow": false,
+            "tagTitle": "all-celulares",
+            "text": "Celulares"
+          }
+        }
+    },
+
+    "menu-item#category-all-colchoes": {
+        "props": {
+          "id": "menu-item-category-all-colchoes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/colchoes/",
+            "noFollow": false,
+            "tagTitle": "all-colchoes",
+            "text": "Colchões"
+          }
+        }
+    },
+
+    "menu-item#category-all-comercio-industria": {
+        "props": {
+          "id": "menu-item-category-all-comercio-industria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/all/comercio-industria/",
+            "noFollow": false,
+            "tagTitle": "all-comercio-industria",
+            "text": "Comércio e Indústria"
+          }
+        }
+    },
+
+    "flex-layout.col#submenu-all-2": {
+        "children": ["vtex.menu@2.x:menu#all-2"]
+    },
+
+    "vtex.menu@2.x:menu#all-2": {
+        "props": {
+          "blockClass": "submenu-container",
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category-all-acessorio-tecnologia",
+            "menu-item#category-all-ar-ventilacao",
+            "menu-item#category-all-audio",
+            "menu-item#category-all-automotivo",
+            "menu-item#category-all-bebes",
+            "menu-item#category-all-beleza-perfumaria",
+            "menu-item#category-all-brinquedos",
+            "menu-item#category-all-cama-mesa-banho",
+            "menu-item#category-all-casa-construcao",
+            "menu-item#category-all-celulares",
+            "menu-item#category-all-colchoes",
+            "menu-item#category-all-comercio-industria"
+        ]
+    },
+
+    "flex-layout.col#submenu-all-3": {
+        "children": ["vtex.menu@2.x:menu#all-3"]
+    },
+
+    "vtex.menu@2.x:menu#all-3": {
+        "props": {
+          "blockClass": "submenu-container",
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category-all-acessorio-tecnologia",
+            "menu-item#category-all-ar-ventilacao",
+            "menu-item#category-all-audio",
+            "menu-item#category-all-automotivo",
+            "menu-item#category-all-bebes",
+            "menu-item#category-all-beleza-perfumaria",
+            "menu-item#category-all-brinquedos",
+            "menu-item#category-all-cama-mesa-banho",
+            "menu-item#category-all-casa-construcao",
+            "menu-item#category-all-celulares",
+            "menu-item#category-all-colchoes",
+            "menu-item#category-all-comercio-industria"
+        ]
+    },
+
+    "flex-layout.col#submenu-all-4": {
+        "children": ["image#submenu-all"]
+    },
+
+    "image#submenu-all": {
+        "props": {
+          "src": "https://ortobomshop.vteximg.com.br/arquivos/banner-departamento.jpg",
+          "maxHeight": "340px",
+          "blockClass": "banner-menu"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "menu-item#ofertas": {
+    "props": {
+      "blockClass": "menu-item-ofertas",
+      "id": "menu-item-category-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas do dia"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#ofertas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#ofertas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "flex-layout.col#submenu-ofertas-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#ofertas": {
+    "props": {
+      "blockClass": "submenu-container",
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "flex-layout.col#submenu-ofertas-1": {
+    "children": [
+      "image#submenu-ofertas"
+    ]
+  },
+  "image#submenu-ofertas": {
+    "props": {
+      "src": "https://ortobomshop.vteximg.com.br/arquivos/banner-ofertas.png",
+      "maxHeight": "340px",
+      "blockClass": "banner-menu",
+      "link": "/ofertas"
+    }
+  }
+}

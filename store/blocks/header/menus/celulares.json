@@ -1,0 +1,124 @@
+{
+    "menu-item#celulares": {
+        "props": {
+          "blockClass": "menu-item-celulares",
+          "id": "menu-item-category-celulares",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/celulares",
+            "noFollow": false,
+            "tagTitle": "celulares",
+            "text": "Celulares"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#celulares"
+        ]
+    },
+    
+    "vtex.menu@2.x:submenu#celulares": {
+        "props": {
+          "width": "auto"
+        },
+        "children": [
+          "flex-layout.col#submenu-celulares-1",
+          "flex-layout.col#submenu-celulares-2"
+        ]
+    },
+
+    "flex-layout.col#submenu-celulares-1": {
+        "children": ["vtex.menu@2.x:menu#celulares"]
+    },
+
+    "vtex.menu@2.x:menu#celulares": {
+        "props": {
+          "blockClass": "submenu-container",
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#category-celulares-acessorios",
+          "menu-item#category-celulares-smartphone",
+          "menu-item#category-celulares-basico",
+          "menu-item#category-celulares-more"
+        ]
+    },
+
+    "menu-item#category-celulares-acessorios": {
+        "props": {
+          "id": "menu-item-category-celulares-acessorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/celulares/acessorios/",
+            "noFollow": false,
+            "tagTitle": "acessorios",
+            "text": "Acessórios"
+          }
+        }
+    },
+
+    "menu-item#category-celulares-smartphone": {
+        "props": {
+          "id": "menu-item-category-celulares-smartphone",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/celulares/smartphone/",
+            "noFollow": false,
+            "tagTitle": "smartphone",
+            "text": "Smartphone"
+          }
+        }
+    },
+
+    "menu-item#category-celulares-basico": {
+        "props": {
+          "id": "menu-item-category-celulares-basico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/celulares/basico/",
+            "noFollow": false,
+            "tagTitle": "celular-basico",
+            "text": "Celular Básico"
+          }
+        }
+    },
+
+    "menu-item#category-celulares-more": {
+        "props": {
+          "id": "menu-item-category-celulares-more",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/celulares/basico/",
+            "noFollow": false,
+            "tagTitle": "celular-more",
+            "text": "+ Celulares"
+          }
+        }
+    },
+
+    "flex-layout.col#submenu-celulares-2": {
+        "children": ["image#submenu-celulares"]
+    },
+
+    "image#submenu-celulares": {
+        "props": {
+          "src": "https://ortobomshop.vteximg.com.br/arquivos/banner-departamento.jpg",
+          "maxHeight": "340px",
+          "blockClass": "banner-menu"
+        }
+    }
+}

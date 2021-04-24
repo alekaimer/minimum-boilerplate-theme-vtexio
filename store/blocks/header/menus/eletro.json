@@ -1,0 +1,141 @@
+{
+    "menu-item#eletro": {
+        "props": {
+          "blockClass": "menu-item-eletro",
+          "id": "menu-item-category-eletro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro",
+            "noFollow": false,
+            "tagTitle": "eletro",
+            "text": "Eletro"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#eletro"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#eletro": {
+        "props": {
+          "width": "auto"
+        },
+        "children": [
+          "flex-layout.col#submenu-eletro-1",
+          "flex-layout.col#submenu-eletro-2"
+        ]
+    },
+
+    "flex-layout.col#submenu-eletro-1": {
+        "children": ["vtex.menu@2.x:menu#eletro"]
+    },
+
+    "vtex.menu@2.x:menu#eletro": {
+        "props": {
+          "blockClass": "submenu-container",
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#category-eletro-tv-audio",
+          "menu-item#category-eletro-eletrodomestico",
+          "menu-item#category-eletro-eletroportateis",
+          "menu-item#category-eletro-ar-ventilacao",
+          "menu-item#category-eletro-more"
+        ]
+    },
+
+    "menu-item#category-eletro-tv-audio": {
+        "props": {
+          "id": "menu-item-category-eletro-tv-audio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/tv-audio/",
+            "noFollow": false,
+            "tagTitle": "eletro-tv-audio",
+            "text": "TV, Audio e Home Theater"
+          }
+        }
+    },
+
+    "menu-item#category-eletro-eletrodomestico": {
+        "props": {
+          "id": "menu-item-category-eletro-eletrodomestico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletrodomestico/",
+            "noFollow": false,
+            "tagTitle": "eletro-eletrodomestico",
+            "text": "Eletrodoméstico"
+          }
+        }
+    },
+
+    "menu-item#category-eletro-eletroportateis": {
+        "props": {
+          "id": "menu-item-category-eletro-eletroportateis",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/eletroportateis/",
+            "noFollow": false,
+            "tagTitle": "eletro-eletroportateis",
+            "text": "Eletroportáteis"
+          }
+        }
+    },
+
+    "menu-item#category-eletro-ar-ventilacao": {
+        "props": {
+          "id": "menu-item-category-eletro-ar-ventilacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/ar-ventilacao/",
+            "noFollow": false,
+            "tagTitle": "eletro-ar-ventilacao",
+            "text": "Ar e Ventilação"
+          }
+        }
+    },
+
+    "menu-item#category-eletro-more": {
+        "props": {
+          "id": "menu-item-category-eletro-ar-ventilacao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletro/more/",
+            "noFollow": false,
+            "tagTitle": "eletro-more",
+            "text": "+ Eletro"
+          }
+        }
+    },
+
+    "flex-layout.col#submenu-eletro-2": {
+        "children": ["image#submenu-eletro"]
+    },
+
+    "image#submenu-eletro": {
+        "props": {
+          "src": "https://ortobomshop.vteximg.com.br/arquivos/banner-departamento.jpg",
+          "maxHeight": "340px",
+          "blockClass": "banner-menu"
+        }
+    }
+}

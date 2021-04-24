@@ -1,0 +1,73 @@
+{
+    "menu-item#promocoes": {
+        "props": {
+          "blockClass": "menu-item-promocoes",
+          "id": "menu-item-category-promocoes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/promocoes",
+            "noFollow": false,
+            "tagTitle": "promocoes",
+            "text": "Promoções"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#promocoes"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#promocoes": {
+        "props": {
+          "width": "auto"
+        },
+        "children": [
+          "flex-layout.col#submenu-promocoes-1",
+          "flex-layout.col#submenu-promocoes-2"
+        ]
+    },
+
+    "flex-layout.col#submenu-promocoes-1": {
+        "children": ["vtex.menu@2.x:menu#promocoes"]
+    },
+
+    "vtex.menu@2.x:menu#promocoes": {
+        "props": {
+          "blockClass": "submenu-container",
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#category-promocoes-selecao"
+        ]
+    },
+
+    "menu-item#category-promocoes-selecao": {
+        "props": {
+          "id": "menu-item-category-promocoes-selecao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/promocoes/selecao/",
+            "noFollow": false,
+            "tagTitle": "promocoes-selecao",
+            "text": "Seleção de produtos em ofertas"
+          }
+        }
+    },
+
+    "flex-layout.col#submenu-promocoes-2": {
+        "children": ["image#submenu-promocoes"]
+    },
+
+    "image#submenu-promocoes": {
+        "props": {
+          "src": "https://ortobomshop.vteximg.com.br/arquivos/banner-departamento.jpg",
+          "maxHeight": "340px",
+          "blockClass": "banner-menu"
+        }
+    }
+}

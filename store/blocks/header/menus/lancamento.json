@@ -1,0 +1,65 @@
+{
+  "menu-item#lancamento": {
+    "props": {
+      "blockClass": "menu-item-lancamento",
+      "id": "menu-item-category-lancamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamento",
+        "noFollow": false,
+        "tagTitle": "lancamento",
+        "text": "Lançamento"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#lancamento"
+    ]
+  },
+  "vtex.menu@2.x:submenu#lancamento": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "flex-layout.col#submenu-lancamento-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#lancamento": {
+    "props": {
+      "blockClass": "submenu-container",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-lancamento-selecao"
+    ]
+  },
+  "menu-item#category-lancamento-selecao": {
+    "props": {
+      "id": "menu-item-category-lancamento-selecao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamento/selecao/",
+        "noFollow": false,
+        "tagTitle": "lancamento-selecao",
+        "text": "Seleção de lançamentos do mês/semana"
+      }
+    }
+  },
+  "flex-layout.col#submenu-lancamento-1": {
+    "children": [
+      "image#submenu-lancamento"
+    ]
+  },
+  "image#submenu-lancamento": {
+    "props": {
+      "src": "https://ortobomshop.vteximg.com.br/arquivos/banner-departamento.jpg",
+      "maxHeight": "340px",
+      "blockClass": "banner-menu"
+    }
+  }
+}

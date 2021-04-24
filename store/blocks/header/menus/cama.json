@@ -1,0 +1,175 @@
+{
+    "menu-item#cama-mesa-banho": {
+        "props": {
+          "blockClass": "menu-item-cama-mesa-banho",
+          "id": "menu-item-category-cama-mesa-banho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho",
+            "noFollow": false,
+            "tagTitle": "cama-mesa-banho",
+            "text": "Cama, Mesa e Banho"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#cama-mesa-banho"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#cama-mesa-banho": {
+        "props": {
+          "width": "auto"
+        },
+        "children": [
+          "flex-layout.col#submenu-cama-mesa-banho-1",
+          "flex-layout.col#submenu-cama-mesa-banho-2"
+        ]
+    },
+
+    "flex-layout.col#submenu-cama-mesa-banho-1": {
+        "children": ["vtex.menu@2.x:menu#cama-mesa-banho"]
+    },
+
+    "vtex.menu@2.x:menu#cama-mesa-banho": {
+        "props": {
+          "blockClass": "submenu-container",
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#category-cama-jogos-de-cama",
+          "menu-item#category-cama-colchas",
+          "menu-item#category-cama-cobre-leitos",
+          "menu-item#category-cama-mantas-cobertores",
+          "menu-item#category-cama-fronhas",
+          "menu-item#category-cama-toalha-de-mesa",
+          "menu-item#category-cama-cortina-para-box"
+        ]
+    },
+
+    "menu-item#category-cama-jogos-de-cama": {
+        "props": {
+          "id": "menu-item-category-cama-jogos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho/jogos-de-cama/",
+            "noFollow": false,
+            "tagTitle": "cama-mesa-banho-jogos-de-cama",
+            "text": "Jogos de Cama"
+          }
+        }
+    },
+
+    "menu-item#category-cama-colchas": {
+        "props": {
+          "id": "menu-item-category-cama-colchas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho/colchas/",
+            "noFollow": false,
+            "tagTitle": "cama-mesa-banho-colchas",
+            "text": "Colchas"
+          }
+        }
+    },
+
+    "menu-item#category-cama-cobre-leitos": {
+        "props": {
+          "id": "menu-item-category-cama-cobre-leitos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho/cobre-leitos/",
+            "noFollow": false,
+            "tagTitle": "cama-mesa-banho-cobre-leitos",
+            "text": "Cobre-leitos"
+          }
+        }
+    },
+
+    "menu-item#category-cama-mantas-cobertores": {
+        "props": {
+          "id": "menu-item-category-cama-mantas-cobertores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho/mantas-cobertores/",
+            "noFollow": false,
+            "tagTitle": "cama-mesa-banho-mantas-cobertores",
+            "text": "Mantas e Cobertores"
+          }
+        }
+    },
+
+    "menu-item#category-cama-fronhas": {
+        "props": {
+          "id": "menu-item-category-cama-fronhas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho/fronhas/",
+            "noFollow": false,
+            "tagTitle": "cama-mesa-banho-fronhas",
+            "text": "Fronhas"
+          }
+        }
+    },
+
+    "menu-item#category-cama-toalha-de-mesa": {
+        "props": {
+          "id": "menu-item-category-cama-toalha-de-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho/toalha-de-mesa/",
+            "noFollow": false,
+            "tagTitle": "cama-mesa-banho-toalha-de-mesa",
+            "text": "Toalha de Mesa"
+          }
+        }
+    },
+
+    "menu-item#category-cama-cortina-para-box": {
+        "props": {
+          "id": "menu-item-category-cama-cortina-para-box",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho/cortina-para-box/",
+            "noFollow": false,
+            "tagTitle": "cama-mesa-banho-cortina-para-box",
+            "text": "Cortina para box"
+          }
+        }
+    },
+
+    "flex-layout.col#submenu-cama-mesa-banho-2": {
+        "children": ["image#submenu-cama-mesa-banho"]
+    },
+
+    "image#submenu-cama-mesa-banho": {
+        "props": {
+          "src": "https://ortobomshop.vteximg.com.br/arquivos/banner-departamento.jpg",
+          "maxHeight": "340px",
+          "blockClass": "banner-menu"
+        }
+    }
+}
