@@ -1,9 +1,10 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text",
-      "flex-layout.row#image-test",
-      "flex-layout.row#shelf-test"
+      // "rich-text",
+      // "flex-layout.row#image-test",
+      "flex-layout.row#app-test"
+      // "flex-layout.row#shelf-test"
     ]
   },
   // texto
@@ -27,6 +28,12 @@
       "src": "https://github.com/alekaimer.png",
       "blockClass": "class-teste"
     }
+  },
+  // component
+  "flex-layout.row#app-test": {
+    "children": [
+      "hello-world"
+    ]
   },
   // shelf
   "flex-layout.row#shelf-test": {
