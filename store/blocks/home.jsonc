@@ -1,16 +1,72 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "flex-layout.row#image-test",
+      "flex-layout.row#shelf-test"
     ]
   },
-  "rich-text": { 
-    "props": { 
+  // texto
+  "rich-text": {
+    "props": {
       "text": "Loja de teste do Alexandre Kaimer",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1",
       "blockClass": "class-teste"
+    }
+  },
+  // imagem
+  "flex-layout.row#image-test": {
+    "children": [
+      "image#test"
+    ]
+  },
+  "image#test": {
+    "props": {
+      "src": "https://github.com/alekaimer.png",
+      "blockClass": "class-teste"
+    }
+  },
+  // shelf
+  "flex-layout.row#shelf-test": {
+    "children": [
+      "rich-text#shelf-title-1",
+      "list-context.product-list#shelf-test"
+    ],
+    "props": {
+      "blockClass": "shelf-test",
+      "colSizing": "auto"
+    }
+  },
+  "list-context.product-list#shelf-test": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "rich-text#shelf-title-1": {
+    "props": {
+      "text": "Os mais vendidos de hoje",
+      "blockClass": "shelf-title"
+    }
+  },
+  "slider-layout#shelf-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
     }
   }
 }
